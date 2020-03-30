@@ -1,0 +1,94 @@
+,ID,Title
+0,9,Energy and peak power optimization of time-bounded robot trajectories
+1,17,Modeling and optimization of energy consumption in cooperative multi-robot systems
+2,20,Energy and cycle time efficiency based method for robot positioning
+3,21,"Interactive compute-control of a six-legged robot vehicle with optimization of stability, terrain adaptibility and energy"
+4,22,Minimizing energy consumption for robot arm movement
+5,24,GA-based search for paths with minimum energy consumption for mobile robot systems
+6,25,Mechanical energy optimization in trajectory planning for six DOF robot manipulators based on eighth-degree polynomial functions and a genetic algorithm
+7,28,Realistic humanoid robot simulation with an optimized controller: a power consumption minimization approach
+8,32,Simulation of power consumption for walking robot
+9,36,An off-line robot motion planning approach for the reduction of the energy consumption
+10,37,Embedding detailed robot energy optimization into high-level scheduling
+11,38,3D simulation and optimization design of a mobile inspection robot for power transmission lines
+12,39,Energy and cycle time efficiency based method for robot positioning
+13,40,Minimising energy consumption for robot arm movement
+14,53,Energy preserving control of a hopping robot based on hybrid port-controlled Hamiltonian modeling
+15,76,Increasing the energy efficiency of multi-robot production lines in the automotive industry
+16,78,A robot-in-residence for data center thermal monitoring and energy efficiency management
+17,87,Experimental and finite element analysis of temperature and energy partition to the workpiece while grinding with a flexible robot
+18,99,Effects of turning gait parameters on energy consumption and stability of a six-legged walking robot
+19,105,Energy efficiency of legged robot locomotion with elastically suspended loads
+20,106,Energy optimization of multi-robot systems
+21,107,Verification of CFD analysis methods for predicting the drag force and thrust power of an underwater disk robot
+22,117,Energy consumption modeling of industrial robot based on simulated power data and parameter identification
+23,118,Energy and peak-power optimization of existing time-optimal robot trajectories
+24,144,"Dynamic modeling, stability and energy consumption analysis of a realistic six-legged walking robot"
+25,153,Port-based modeling of human-robot collaboration towards safety-enhancing energy shaping control
+26,159,Power efficiency estimation-based health monitoring and fault detection of modular and reconfigurable robot
+27,161,Minimization of the energy consumption in motion planning for single-robot tasks
+28,164,Analysis of the energy consumption by an industrial robot for the angular movement of individual axes
+29,169,On-board energy consumption estimation for a six-legged walking robot
+30,170,Energy-efficient bio-inspired gait planning and control for biped robot based on human locomotion analysis
+31,172,Dynamic modeling and energy consumption analysis of crab walking of a six-legged robot
+32,183,Design and modeling of a lightweight and low power consumption full-scale biped robot
+33,184,Modeling and experimental validation of the influence of robot temperature on its energy consumption
+34,186,Bringing the Internet of Things along the manufacturing line: A case study in controlling industrial robot and monitoring energy consumption remotely
+35,188,"Kinematics, dynamics and power consumption analysis of the hexapod robot during walking with tripod gait"
+36,190,Optimal control for reducing the energy consumption of a reconfigurable parallel robot
+37,191,Energy efficiency of trajectory generation methods for stop-and-go aerial robot navigation
+38,192,Enhanced efficiency of solid-state NMR investigations of energy materials using an external automatic tuning/matching (eATM) robot
+39,199,"Kinematics, dynamics and power consumption analyses for turning motion of a six-legged robot"
+40,218,The influence of friction on gait and energy efficiency of the walking robot based on rhythmic control
+41,221,Comparison of linear and torsion-based dynamic modeling of a jumping robot via energy conversion
+42,222,Motion planning and simulation verification of a hydraulic hexapod robot based on reducing energy/flow consumption
+43,228,Industrial energy efficiency potentials: an assessment of three different robot concepts
+44,229,Energy-aware terrain analysis for mobile robot exploration
+45,237,Fault tree analysis for an inspection robot in a nuclear power plant
+46,245,Near-infrared fluorescence imaging with indocyanine green in robot-assisted partial nephrectomy: pooled analysis of comparative studies
+47,249,Productivity/energy optimisation of trajectories and coordination for cyclic multi-robot systems
+48,251,Sustainable production automation-energy optimization of robot cells
+49,255,Design and analysis of novel friction controlling mechanism with minimal energy for in-pipe robot applications
+50,259,The study on human walking gait analysis system for the design of walking power-assisted robot
+51,265,Parallel elastic elements improve energy efficiency on the STEPPR bipedal walking robot
+52,268,Torque optimization for a 7DOF upper-limb power-assist exoskeleton robot
+53,292,Computation of optimum consumption of energy for anthropomorphic robot driven by electric motor
+54,296,Normalized energy stability margin based analysis of omni-directional static walking of a quadruped robot on rough terrain
+55,297,Sailing robot performance: maximum speed tracking vs energy efficiency
+56,335,"Micro-intestinal robot with wireless power transmission: design, analysis and experiment"
+57,336,Dynamic modeling of energy efficient crab walking of hexapod robot
+58,337,Full-size humanoid robot TEO: Design attending mechanical robustness and energy consumption
+59,341,Performances analysis of piezoelectric cantilever based energy harvester devoted to mesoscale intra-body robot
+60,342,Analysis of the position of robotic cell components and its impact on energy consumption by robot
+61,343,A novel 110 kV power line inspection robot and its climbing ability analysis
+62,367,Energy efficiency of legged robot locomotion with elastically-suspended loads over a range of suspension stiffnesses
+63,370,Robot's energy consumption based multi-robot exploration strategy
+64,371,Simulation and energy consumption analysis of a parallel robot
+65,373,Energy-consumption estimation of inspection robot based on Kalman filter
+66,385,Using adaptive model predictive technique to control underactuated robot and minimize energy consumption
+67,393,Galloping trajectory generation of a legged transport robot based on energy consumption optimization
+68,397,Mechanical design and motion analysis of a small intelligent inspection robot for nuclear power plant
+69,410,Stair-climbing and energy consumption evaluation of a leg-tracked quadruped robot
+70,419,Combining gait optimization with passive system to increase the energy efficiency of a humanoid robot walking movement
+71,421,Energy optimisation of an industrial robot using iterative dynamic programming
+72,425,"Study on feet forces' distributions, energy consumption and dynamic stability measure of hexapod robot during crab walking"
+73,426,Fuzzy logic pid based control design for a small underwater robot with minimum energy consumption
+74,440,Modeling and analysis on energy consumption of hydraulic quadruped robot for optimal trot motion control
+75,443,Coupled drive leg of quadrupedal robot mechanism design and analysis of energy consumption
+76,446,Design and analysis of multi-winding power current transformer for power transmission lines inspection robot
+77,451,Towards integrated OR/CP energy optimization for robot cells
+78,455,A robust feedback path tracking control algorithm for an indoor carrier robot considering energy optimization
+79,457,Self-tuning time-energy optimization for the trajectory planning of a wheeled mobile robot
+80,470,Realization energy optimization of complete path planning in differential drive based self-reconfigurable floor cleaning robot
+81,492,Analysis of the energy consumption of a novel dc power supplied industrial robot
+82,498,A virtual power algorithm for dynamics analysis of a 3-RRcP spherical parallel robot using the screw theory
+83,510,Understanding the power consumption of executing deep neural networks on a distributed robot system
+84,514,A survey on reliability and safety analysis techniques of robot systems in nuclear power plants
+85,555,A task analysis and a controller system design for a power distribution line maintenance robot
+86,572,Elastic-plastic analysis and riveting energy control for dual-robot pneumatic riveting system
+87,575,"Towards energy-efficient limit-cycle walking in biped service robots: design analysis, modeling and experimental study of biped robot actuated by linear motors"
+88,607,Adaptive driver modeling using machine learning algorithms for the energy optimal planning of velocity trajectories for electric vehicles and realizing simultaneous lane keeping and adaptive speed regulation on accessible mobile robot testbeds
+89,635,Effects of turning gait parameters on energy consumption and stability of a six-legged walking robot
+90,643,Harvesting sequence planning of a harvesting robot based on the principle of minimum energy consumption
+91,645,PRE-PRINT A robot that walked 65 km on a single charge: energy-effective and reliable locomotion using trajectory optimization and stabilization from reflexes
+92,682,Dimentional optimization of a Delta parallel robot based on a lower energy consumption
