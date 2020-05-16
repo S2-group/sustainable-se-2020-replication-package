@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: /Users/ivano/Google Drive/S2-Group/edu Green Lab/2017-2018/final report template/.texpadtmp/TeamX_assignmentY.aux
+The style file: plain.bst
+Database file #1: ../report.bib
+I was expecting a `,' or a `}'---line 14 of file ../report.bib
+ :   
+ :   Year                     = {2017},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You've used 2 entries,
+            2118 wiz_defined-function locations,
+            505 strings with 4468 characters,
+and the built_in function-call counts, 588 in all, are:
+= -- 46
+> -- 40
+< -- 0
++ -- 16
+- -- 14
+* -- 36
+:= -- 108
+add.period$ -- 5
+call.type$ -- 2
+change.case$ -- 12
+chr.to.int$ -- 0
+cite$ -- 2
+duplicate$ -- 19
+empty$ -- 45
+format.name$ -- 14
+if$ -- 116
+int.to.chr$ -- 0
+int.to.str$ -- 2
+missing$ -- 2
+newline$ -- 12
+num.names$ -- 4
+pop$ -- 21
+preamble$ -- 1
+purify$ -- 11
+quote$ -- 0
+skip$ -- 16
+stack$ -- 0
+substring$ -- 10
+swap$ -- 2
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 6
+warning$ -- 0
+while$ -- 4
+width$ -- 3
+write$ -- 19
+(There was 1 error message)

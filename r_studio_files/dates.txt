@@ -1,0 +1,17 @@
+conferencePaper, 2006
+journalArticle, 2018
+conferencePaper, 2013
+conferencePaper, 2018
+conferencePaper, 2013
+conferencePaper, 2013
+journalArticle, 2019
+journalArticle, 2019
+conferencePaper, 2013
+conferencePaper, 2016
+journalArticle, 2019
+journalArticle, 2020
+conferencePaper, 1995
+conferencePaper, 2004
+journalArticle, 2017
+conferencePaper, 2005
+conferencePaper, 2012

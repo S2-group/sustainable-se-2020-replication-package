@@ -1,0 +1,116 @@
+\documentclass[10pt, conference, compsocconf]{IEEEtran}
+
+\usepackage[bookmarks=true]{hyperref}
+\usepackage{epsfig}
+\usepackage{amsmath,amssymb,amsfonts,latexsym}
+\usepackage{enumerate}
+\usepackage{xspace}
+\usepackage{epsf,picinpar}
+\usepackage{varioref}
+\usepackage{colortbl,multirow,hhline}
+\usepackage{listings}
+\usepackage{amssymb}
+\usepackage{colortbl,multirow,hhline}
+\usepackage{algorithmic}
+\usepackage{algorithm}
+\usepackage{caption}
+\usepackage[normalem]{ulem}
+\usepackage{xcolor}
+\usepackage{pifont}
+\usepackage{xcolor,colortbl}
+\usepackage{url}
+\usepackage{balance}
+\usepackage{graphicx, subfigure}
+\usepackage{longtable}
+\usepackage{lscape}
+\usepackage{multirow}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{morefloats}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+\usepackage{pdfpages}
+\usepackage{fancybox}
+\usepackage{amsmath}
+\usepackage{flushend}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{adjustbox}
+
+\renewcommand{\ttdefault}{cmr}
+
+\newcommand{\limit}[1]{\textcolor{red}{\ding{46}~Page limit:~#1}\\}
+\newcommand{\todo}[1]{\textcolor{blue}{\ding{46}~#1}} 
+\newcommand{\ie}{\emph{i.e.,}\xspace}
+\newcommand{\eg}{\emph{e.g.,}\xspace}
+\newcommand{\etc}{etc.\xspace}
+\newcommand{\etal}{\emph{et~al.}\xspace} 
+    
+\begin{document}
+
+\title{
+	{A Systematic Literature Review on Energy Efficiency in Robotics Software}
+}
+
+\author{
+\IEEEauthorblockN{dr. Ivano Malavolta}
+\IEEEauthorblockA{	
+	Supervisor \\ 
+	Vrije Universiteit Amsterdam
+}
+
+\vspace{5mm}
+
+\IEEEauthorblockN{Stan Swanborn}
+\IEEEauthorblockA{S2627602\\
+s.o.swanborn@student.vu.nl}
+}
+
+
+\maketitle
+
+\begin{abstract}
+\noindent \textit{Context}. 
+Nowadays, mobile robots are widely used in many applications. Non-mobile robots are widely used in industrial automation.
+This literature study covers the field of research into the energy efficiency of robotics software.
+
+\noindent \textit{Goal}. 
+The goal of this literature study is to present an approachable survey of existing research on energy efficiency in robotics software
+in order to motivate expansions to research the energy impact of the robotics software itself.
+
+\noindent \textit{Method}. 
+The method used is a rigorously designed literature study, spanning 17 primary studies. 
+These primary studies are summarized, categorized, and analyzed in order to derive relevant patterns across the different studies.
+
+\noindent \textit{Results}. 
+The result is given in three parts, as answers to the three research questions. 
+The results show that the field of study, while existing since before the change of the century, is still somewhat immature.
+With attained interest over the last 5 to 10 years.
+The results also gave rise to the motivation for expansion of research into the energy impact of the robotics software itself.
+This field of study is still very much in its infancy but proves essential in maximizing energy efficiency of robotic systems, 
+as software is the main enabler of robotics, its energy consumption will directly inﬂuence the energy consumption level of the
+entire system.
+
+\noindent \textit{Conclusions}.
+After reading this literature study, the reader will have gained insight in the state-of-the-art of analyzing and 
+improving energy efficiency in robotics software. The reader will be able to judge the findings because of the analyzed publication trends
+and will be able to judge if the findings are of use for their personal application using the explicate trade-off analysis.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Green Software, Robotics Software, Mobile Robots, Energy Efficiency, Systematic Literature Review, Systematic Literature Study
+\end{IEEEkeywords}
+
+\input{intro.tex}
+\input{study_design.tex}
+\input{results.tex} 
+\input{discussion.tex}
+\input{threats.tex}
+\input{conclusion.tex} 
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\input{appendix.tex}
+
+\end{document}
