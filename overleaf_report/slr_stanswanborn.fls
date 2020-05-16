@@ -1,9 +1,9 @@
-PWD c:\Users\StanS\Documents\school\template_test
+PWD c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report
 INPUT C:\Users\StanS\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\StanS\Documents\school\template_test\slr_stanswanborn.tex
-OUTPUT c:\Users\StanS\Documents\school\template_test\slr_stanswanborn.log
-INPUT c:\Users\StanS\Documents\school\template_test\IEEEtran.cls
-INPUT c:\Users\StanS\Documents\school\template_test\IEEEtran.cls
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\slr_stanswanborn.tex
+OUTPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\slr_stanswanborn.log
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\IEEEtran.cls
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\IEEEtran.cls
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr7t.tfm
@@ -234,64 +234,87 @@ INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ifoddpage\ifodd
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\varwidth\varwidth.sty
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\varwidth\varwidth.sty
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\varwidth\varwidth.sty
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mathdesign.sty
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mathdesign.sty
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbch\mdbch.cfg
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbch\mdbch.cfg
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbch\mdbch.sty
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbch\mdbch.sty
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdfont.def
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdfont.def
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdsffont.def
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdsffont.def
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdttfont.def
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdttfont.def
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbch\t1mdbch.fd
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbch\t1mdbch.fd
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchr8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eulervm\eulervm.sty
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eulervm\eulervm.sty
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3backend\l3backend-pdfmode.def
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3backend\l3backend-pdfmode.def
-INPUT c:\Users\StanS\Documents\school\template_test\slr_stanswanborn.aux
-INPUT c:\Users\StanS\Documents\school\template_test\slr_stanswanborn.aux
-OUTPUT c:\Users\StanS\Documents\school\template_test\slr_stanswanborn.aux
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmbi8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmbi8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmbi8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmbi8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmbi8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmbi8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmbi8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmbi8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmbi8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmbi8t.tfm
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\slr_stanswanborn.aux
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\slr_stanswanborn.aux
+OUTPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\slr_stanswanborn.aux
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdacmr.fd
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdacmr.fd
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbcmr.fd
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbcmr.fd
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchr8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchb8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchri8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchbi8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchr8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchb8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchri8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchbi8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchr8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchb8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchri8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchbi8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchr8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchb8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchri8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchbi8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchb8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchri8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchbi8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchr8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchb8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchri8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchbi8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchr8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchb8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchri8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchbi8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchr8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchb8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchri8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchbi8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchr8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchb8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchri8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchbi8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchr8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchb8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchri8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchbi8t.tfm
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\refcount\refcount.sty
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\refcount\refcount.sty
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\generic\gettitlestring\gettitlestring.sty
-INPUT c:\Users\StanS\Documents\school\template_test\slr_stanswanborn.out
-INPUT c:\Users\StanS\Documents\school\template_test\slr_stanswanborn.out
-INPUT c:\Users\StanS\Documents\school\template_test\slr_stanswanborn.out
-INPUT c:\Users\StanS\Documents\school\template_test\slr_stanswanborn.out
-OUTPUT c:\Users\StanS\Documents\school\template_test\slr_stanswanborn.pdf
-INPUT c:\Users\StanS\Documents\school\template_test\slr_stanswanborn.out
-INPUT c:\Users\StanS\Documents\school\template_test\slr_stanswanborn.out
-OUTPUT c:\Users\StanS\Documents\school\template_test\slr_stanswanborn.out
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\slr_stanswanborn.out
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\slr_stanswanborn.out
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\slr_stanswanborn.out
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\slr_stanswanborn.out
+OUTPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\slr_stanswanborn.pdf
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\slr_stanswanborn.out
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\slr_stanswanborn.out
+OUTPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\slr_stanswanborn.out
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
@@ -300,42 +323,59 @@ INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\ltcapti
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\ltcaption.sty
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdflscape\pdflscape.sty
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdflscape\pdflscape.sty
-INPUT c:\Users\StanS\Documents\school\template_test\intro.tex
-INPUT c:\Users\StanS\Documents\school\template_test\intro.tex
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmrc8t.tfm
-INPUT c:\Users\StanS\Documents\school\template_test\study_design.tex
-INPUT c:\Users\StanS\Documents\school\template_test\study_design.tex
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmr8t.vf
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\intro.tex
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\intro.tex
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchrfc8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\mathdesign\mdbch\mdbchr8t.vf
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chr8y.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chr8t.tfm
 INPUT C:\Users\StanS\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmr8t.vf
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmr8t.vf
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmbi8t.vf
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmbi8r.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmb8t.vf
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmrc8t.vf
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmri8t.vf
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri8r.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmb8t.vf
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT c:\Users\StanS\Documents\school\template_test\figures\selection_process.png
-INPUT c:\Users\StanS\Documents\school\template_test\figures\selection_process.png
-INPUT c:\Users\StanS\Documents\school\template_test\figures\selection_process.png
-INPUT c:\Users\StanS\Documents\school\template_test\figures\selection_process.png
-INPUT c:\Users\StanS\Documents\school\template_test\figures\selection_process.png
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\mathdesign\mdbch\mdbchr8t.vf
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chr8y.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chr8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\mathdesign\mdbch\mdbchr8t.vf
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chr8y.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chr8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\mathdesign\mdbch\mdbchbi8t.vf
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chbi8y.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chbi8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\mathdesign\mdbch\mdbchb8t.vf
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chb8y.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chb8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\mathdesign\mdbch\mdbchrfc8t.vf
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chr8y.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chr8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\mathdesign\mdbch\mdbchri8t.vf
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chri8y.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chri8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\mathdesign\mdbch\mdbchb8t.vf
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chb8y.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chb8t.tfm
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\study_design.tex
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\study_design.tex
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\figures\selection_process.png
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\figures\selection_process.png
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\figures\selection_process.png
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\figures\selection_process.png
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\figures\selection_process.png
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eulervm\uzeur.fd
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eulervm\uzeur.fd
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\eulervm\zeurm10.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\eulervm\zeurm7.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\eulervm\zeurm5.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eulervm\uzeus.fd
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eulervm\uzeus.fd
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\eulervm\zeusm10.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\eulervm\zeusm7.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\eulervm\zeusm5.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eulervm\uzeuex.fd
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eulervm\uzeuex.fd
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\eulervm\zeuex10.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\eulervm\zeuex10.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\eulervm\zeuex10.tfm
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam5.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
@@ -344,81 +384,118 @@ INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ulasy.fd
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\latex-fonts\lasy10.tfm
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\latex-fonts\lasy7.tfm
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\latex-fonts\lasy5.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr8.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr6.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi8.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi6.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy8.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy6.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbch\omsmdbch.fd
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbch\omsmdbch.fd
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchr7y.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchr7y.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchr7y.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbch\omlmdbch.fd
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbch\omlmdbch.fd
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchr7m.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchr7m.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchr7m.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbch\mdamdbch.fd
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbch\mdamdbch.fd
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchrma.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchrma.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchrma.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbch\mdbmdbch.fd
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbch\mdbmdbch.fd
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchrmb.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchrmb.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchrmb.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchr8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\eulervm\zeurm7.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\eulervm\zeurm7.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\eulervm\zeusm7.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\eulervm\zeusm7.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\eulervm\zeuex10.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\eulervm\zeuex10.tfm
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\latex-fonts\lasy8.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8t.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmr8t.vf
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmbi8t.vf
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmbi8r.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmr8t.vf
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmr8t.vf
-INPUT c:\Users\StanS\Documents\school\template_test\results.tex
-INPUT c:\Users\StanS\Documents\school\template_test\results.tex
-INPUT c:\Users\StanS\Documents\school\template_test\figures\publication_trend_extended.png
-INPUT c:\Users\StanS\Documents\school\template_test\figures\publication_trend_extended.png
-INPUT c:\Users\StanS\Documents\school\template_test\figures\publication_trend_extended.png
-INPUT c:\Users\StanS\Documents\school\template_test\figures\publication_trend_extended.png
-INPUT c:\Users\StanS\Documents\school\template_test\figures\publication_trend_extended.png
-INPUT c:\Users\StanS\Documents\school\template_test\figures\experiment_distr.png
-INPUT c:\Users\StanS\Documents\school\template_test\figures\experiment_distr.png
-INPUT c:\Users\StanS\Documents\school\template_test\figures\experiment_distr.png
-INPUT c:\Users\StanS\Documents\school\template_test\figures\experiment_distr.png
-INPUT c:\Users\StanS\Documents\school\template_test\figures\experiment_distr.png
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmri8t.vf
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri8r.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8c.tfm
-INPUT c:\Users\StanS\Documents\school\template_test\figures\trade_off_freq.png
-INPUT c:\Users\StanS\Documents\school\template_test\figures\trade_off_freq.png
-INPUT c:\Users\StanS\Documents\school\template_test\figures\trade_off_freq.png
-INPUT c:\Users\StanS\Documents\school\template_test\figures\trade_off_freq.png
-INPUT c:\Users\StanS\Documents\school\template_test\figures\trade_off_freq.png
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmr8c.vf
-INPUT c:\Users\StanS\Documents\school\template_test\discussion.tex
-INPUT c:\Users\StanS\Documents\school\template_test\discussion.tex
-INPUT c:\Users\StanS\Documents\school\template_test\threats.tex
-INPUT c:\Users\StanS\Documents\school\template_test\threats.tex
-INPUT c:\Users\StanS\Documents\school\template_test\conclusion.tex
-INPUT c:\Users\StanS\Documents\school\template_test\conclusion.tex
-INPUT c:\Users\StanS\Documents\school\template_test\slr_stanswanborn.bbl
-INPUT c:\Users\StanS\Documents\school\template_test\slr_stanswanborn.bbl
-INPUT c:\Users\StanS\Documents\school\template_test\appendix.tex
-INPUT c:\Users\StanS\Documents\school\template_test\appendix.tex
-INPUT c:\Users\StanS\Documents\school\template_test\appendix\primary_studies.tex
-INPUT c:\Users\StanS\Documents\school\template_test\appendix\primary_studies.tex
-INPUT c:\Users\StanS\Documents\school\template_test\appendix\data_sheet_1.tex
-INPUT c:\Users\StanS\Documents\school\template_test\appendix\data_sheet_1.tex
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmb8t.vf
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT c:\Users\StanS\Documents\school\template_test\appendix\data_sheet_2.tex
-INPUT c:\Users\StanS\Documents\school\template_test\appendix\data_sheet_2.tex
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8c.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmr8c.vf
-INPUT c:\Users\StanS\Documents\school\template_test\slr_stanswanborn.aux
-INPUT c:\Users\StanS\Documents\school\template_test\slr_stanswanborn.out
-INPUT c:\Users\StanS\Documents\school\template_test\slr_stanswanborn.out
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\base\8r.enc
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\times\utmb8a.pfb
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\times\utmb8a.pfb
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\times\utmbi8a.pfb
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\times\utmbi8a.pfb
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\times\utmr8a.pfb
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\times\utmr8a.pfb
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\times\utmri8a.pfb
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\times\utmri8a.pfb
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchr7y.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchr7y.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchr7m.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchr7m.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchrma.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchrma.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchrmb.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchrmb.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\mathdesign\mdbch\mdbchr8t.vf
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chr8y.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chr8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\mathdesign\mdbch\mdbchr8t.vf
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chr8y.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chr8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\mathdesign\mdbch\mdbchr8t.vf
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\results.tex
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\results.tex
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\mathdesign\mdbch\mdbchbi8t.vf
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chbi8y.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chbi8t.tfm
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\figures\publication_trend_extended.png
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\figures\publication_trend_extended.png
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\figures\publication_trend_extended.png
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\figures\publication_trend_extended.png
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\figures\publication_trend_extended.png
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\figures\experiment_distr.png
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\figures\experiment_distr.png
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\figures\experiment_distr.png
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\figures\experiment_distr.png
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\figures\experiment_distr.png
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\mathdesign\mdbch\mdbchri8t.vf
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chri8y.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chri8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbch\ts1mdbch.fd
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbch\ts1mdbch.fd
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchr8c.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\mathdesign\mdbch\mdbchr8c.vf
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chr8c.tfm
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\figures\trade_off_freq.png
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\figures\trade_off_freq.png
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\figures\trade_off_freq.png
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\figures\trade_off_freq.png
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\figures\trade_off_freq.png
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\discussion.tex
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\discussion.tex
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\threats.tex
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\threats.tex
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\conclusion.tex
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\conclusion.tex
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\slr_stanswanborn.bbl
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\slr_stanswanborn.bbl
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\appendix.tex
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\appendix.tex
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\appendix\primary_studies.tex
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\appendix\primary_studies.tex
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\appendix\data_sheet_1.tex
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\appendix\data_sheet_1.tex
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\mathdesign\mdbch\mdbchb8t.vf
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chb8y.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chb8t.tfm
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\appendix\data_sheet_2.tex
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\appendix\data_sheet_2.tex
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchr8c.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\mathdesign\mdbch\mdbchr8c.vf
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chr8c.tfm
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\slr_stanswanborn.aux
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\slr_stanswanborn.out
+INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\slr_stanswanborn.out
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\ly1\texnansi.enc
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\bitstrea\charter\bchb8a.pfb
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\bitstrea\charter\bchb8a.pfb
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\bitstrea\charter\bchbi8a.pfb
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\bitstrea\charter\bchbi8a.pfb
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\bitstrea\charter\bchr8a.pfb
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\bitstrea\charter\bchr8a.pfb
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\bitstrea\charter\bchri8a.pfb
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\bitstrea\charter\bchri8a.pfb
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\mathdesign\mdbch\md-chb8t.pfb
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\mathdesign\mdbch\md-chb8t.pfb
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\mathdesign\mdbch\md-chr8t.pfb
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\mathdesign\mdbch\md-chr8t.pfb
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\mathdesign\mdbch\md-chri8t.pfb
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\mathdesign\mdbch\md-chri8t.pfb

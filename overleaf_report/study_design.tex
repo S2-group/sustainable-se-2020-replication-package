@@ -1,7 +1,5 @@
 \section{Study design}
 \label{sec:study_design}
-% Mention the build up of the chapter and the goal of the study.
-
 This literature study has been designed and carried out by following 
 well-accepted methodological guidelines on secondary studies, such as those in 
 \cite{petersen2015guidelines_systematic, kitchenham2013systematic_review_guidelines, wohlin2012experimentation}.
@@ -10,15 +8,14 @@ This literature study researches multiple research questions.
 These questions will be given and motivated in subsection \ref{sec:study_design:research_questions}.
 Then the search and selection of papers adhering to the inclusion and exclusion criteria began.
 This process, and the criteria, are given in subsection \ref{sec:study_design:search_selection}.
-After the selection was made final, these papers are hereon after called the \textit{primary studies}, the summarization and categorization process began. 
+After the selection was made final, hereon after called the \textit{primary studies}, the summarization and categorization process began. 
 This process is the most important step for writing the literature study; the studies are made comparable by finding the commonalities and patterns in the field of study. 
 This process is further explained in subsection \ref{sec:study_design:summ_categor}.
 
 
 \subsection{Research Questions}
 \label{sec:study_design:research_questions}
-% Mention the research questions and their motivations (maybe metrics as well).
-This study considers three research questions. These questions, their motivations and their metrics are given in this subsection.
+This study considers three research questions. These questions and their motivations are given in this subsection.
 
 \vspace{5mm}
 
@@ -26,21 +23,18 @@ This study considers three research questions. These questions, their motivation
 
 \vspace{5mm}
 
-To be able to judge any characteristics of the state-of-the-art of energy efficiency in robotics software, we need to know the maturity of the field. What kind of publication trends are observed?
+To be able to judge any characteristics of the state-of-the-art of energy efficiency in robotics software, one needs to know the maturity of the field.
+What publication trends are observed?
 
 \vspace{5mm}
-
-% \noindent\textbf{Metrics:} \textit{Publication Year} \\
 
 \textbf{[RQ2]} \textit{What is the state-of-the-art on analyzing and improving the energy efficiency in robotics software?}
 
 \vspace{5mm}
 
-This research question aims to answer what the state-of-the-art is for achieving and analyzing an increase of energy efficiency in robotics software. It also aims to answer what the state-of-the-art is for uncovering aspects negatively impacting energy efficiency in robotics software.
+This research question aims to answer what the state-of-the-art is for achieving and analyzing an increase of energy efficiency in robotics software.
 
 \vspace{5mm}
-
-% \noindent\textbf{Metrics:} \textit{Identified Major Consumer | Identified Improving (Software) Aspect | Major Contribution} \\
 
 \textbf{[RQ3]} \textit{What are the trade-offs when dealing with energy efficiency in robotics software?}
 
@@ -49,12 +43,8 @@ This research question aims to answer what the state-of-the-art is for achieving
 This research question aims to give insights into what Quality Attributes have been identified to trade-off with energy efficiency. 
 It is valuable for researchers and practitioners to know that if one wants to increase energy efficiency, one can expect a decrease of some other attribute.
 
-% \noindent\textbf{Metrics:} \textit{QA Trade-offs} \\
-
 \subsection{Search and Selection}
 \label{sec:study_design:search_selection}
-% Mention the search string CHECK, snowballing CHECK, criteria CHECK, duplicates CHECK, numbers from potentially relevant to primary CHECK.
-% Mention how to filter potentially, not reading them all TODO. but checking all their titles TODO, reading those that seemed interesting. Abstract + full-text. Duplicates not in primary studies but read nonetheless CHECK.
 \begin{figure}
     \centering
     \includegraphics[width=0.5\textwidth]{figures/selection_process.png}
@@ -62,8 +52,9 @@ It is valuable for researchers and practitioners to know that if one wants to in
     \label{fig:search_selec_process}
 \end{figure}
 
-After the familiarization process, the \textit{study design} is agreed and approved upon before starting the search and selection process. 
+The \textit{study design} is agreed and approved upon before starting the search and selection process. 
 This is meant to prevent, as much as possible, any personal bias during search and selection, as the \textit{search string} and \textit{selection criteria} are already finalized.
+This, and more threats to the validity of this report are detailed in section \ref{sec:threats}.
 An overview of the search and selection process is given in figure \ref{fig:search_selec_process}.
 The process, as displayed in the figure, is further elaborated on in this subsection.
 
@@ -92,7 +83,7 @@ After the duplicates were removed the total number of potentially relevant studi
 
 \vspace{1mm}
 
-\textit{\textbf{Note:} this step will only filter easy duplicates (fully matching Title and Authors sections) by design. Any other duplicate is left to be manually removed in order to prevent unintentional removal. See section \ref{sec:threats}}.
+\textit{\textbf{Note:} this step only filtered easy duplicates (fully matching Title and Authors sections) by design. Any other duplicate is left to be manually removed in order to prevent unintentional removal.}
 
 \vspace{5mm}
 
@@ -114,8 +105,11 @@ These criteria, in the context of \textit{Robotics Software}, consist of:
     \item[e5] Studies not available as full-text.
 \end{itemize}
 
-% Write that these were applied manually, reading titles, if not enough, reading abstract, if not enough, reading full-text.
-The application of the selection criteria was done manually by following the steps given below. Each step was performed to see if any selection criteria could be decided based on the information gained by it. If a step decides one of the \textit{exclusion criteria} the next steps are not followed for that particular study, as it already warrants rejection. The following steps were followed for each of the \textbf{610} potentially relevant studies:
+The application of the selection criteria was done manually by following the steps given below. 
+Each step was performed to see if any selection criteria could be decided based on the information gained by it. 
+If a step decided one of the \textit{exclusion criteria} the next steps were not followed for that particular study, 
+as it already warrants rejection. 
+The following steps were followed for each of the \textbf{610} potentially relevant studies:
 \begin{itemize}
 	\item[S1] Read the \textit{Title}.
 	\item[S2] \textit{Download} the study.
@@ -123,7 +117,9 @@ The application of the selection criteria was done manually by following the ste
 	\item[S4] Read the study \textit{full-text}.
 \end{itemize}
 
-After this step, a total of \textbf{15} papers were identified to adhere to \textbf{all} of the \textit{inclusion criteria} and \textbf{none} of the \textit{exclusion criteria}. These form the set of \textbf{considered studies}.
+Once the application of the selection criteria was completed for the entire set of potentially relevant studies,
+a total of \textbf{15} papers were identified to adhere to \textbf{all} of the \textit{inclusion criteria} and
+\textbf{none} of the \textit{exclusion criteria}. These formed the set of \textbf{considered studies}.
 
 \vspace{5mm}
 
@@ -143,10 +139,9 @@ On completion of the snowballing process, the set of considered studies grew to 
 \vspace{5mm}
 
 \noindent\textbf{5. Exclusion during Data Extraction:}
-% Data sheet, extraction, warranting rejection if exclusion criteria are met.
-During the data extraction phase, each \textit{primary study} if read full-text and its findings are used to construct a data sheet.
-This data sheet aims to cover all similarities and patterns between the primary studies so that a report can be written, comparing their findings.
-During this data extraction, papers that made it to the primary studies set can still be removed from the set if they are found to adhere to one of the \textit{exclusion criteria}.
+During the data extraction phase, each \textit{primary study} is read full-text and its findings are used to construct a data sheet.
+This data sheet aims to cover all similarities and patterns between the primary studies so that this literature study can be written, comparing their findings.
+During this data extraction, papers that made it to the collection of primary studies can still be removed from the set if they are found to adhere to one of the \textit{exclusion criteria}.
 
 The data sheet constructed during this phase, consists of a set of columns. 
 These columns, example values and their most relevant RQ are given in table \ref{table:data_sheet}.
@@ -197,9 +192,9 @@ These columns, example values and their most relevant RQ are given in table \ref
 
 \subsection{Summarization and Categorization}
 \label{sec:study_design:summ_categor}
-% Add diagram displaying the summarization and categorization process (reading papers, taking notes, categorizing the similarities, building data sheet, reading papers again and filling in data sheet.)
-
-Arriving at this step, the set of \textit{primary studies} is finalized, now consisting of \textbf{17} papers.
+Arriving at this step, the set of \textit{primary studies} is finalized, now consisting of \textbf{17} papers. 
+A total of 4 papers have been excluded during data extraction.
 After reading all primary studies once more, their data sheets, as given in table \ref{table:data_sheet}, are filled in manually. 
-Once the data sheet has been fully filled in, the report can be written. 
+Once the data sheet was fully filled in, the report could be written. 
 The results, as shown in section \ref{sec:results}, are based on this completed data sheet.
+This completed data sheet is available in two parts in the Appendix: Part 1 \ref{appendix:data_sheet_1} and Part 2 \ref{appendix:data_sheet_2}.
