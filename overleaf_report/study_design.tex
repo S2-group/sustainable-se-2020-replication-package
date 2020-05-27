@@ -1,10 +1,10 @@
 \section{Study design}
 \label{sec:study_design}
 This literature study has been designed and carried out by following 
-well-accepted methodological guidelines on secondary studies, such as those in 
+well-accepted methodological guidelines on secondary studies
 \cite{petersen2015guidelines_systematic, kitchenham2013systematic_review_guidelines, wohlin2012experimentation}.
 
-This literature study researches multiple research questions. 
+This literature study targets multiple research questions. 
 These questions will be given and motivated in subsection \ref{sec:study_design:research_questions}.
 Then the search and selection of papers adhering to the inclusion and exclusion criteria began.
 This process, and the criteria, are given in subsection \ref{sec:study_design:search_selection}.
@@ -47,7 +47,7 @@ It is valuable for researchers and practitioners to know that if one wants to in
 \label{sec:study_design:search_selection}
 \begin{figure}
     \centering
-    \includegraphics[width=0.5\textwidth]{figures/selection_process.png}
+    \includegraphics[width=0.5\textwidth]{figures/selection_process_var2.png}
     \caption{The Search and Selection process}
     \label{fig:search_selec_process}
 \end{figure}
@@ -61,9 +61,23 @@ The process, as displayed in the figure, is further elaborated on in this subsec
 \vspace{5mm}
 
 \noindent\textbf{1. Initial Search:}
-For the initial search, \textbf{Google Scholar}\footnote{\url{https://scholar.google.com/}} was used. The results were retrieved using the \textit{search string} as given in figure \ref{fig:search_string}. 
-The search string is kept as general as possible so that potentially relevant studies that would be able to make it to the primary studies but might not match exactly, are not accidentally filtered out by the crude, automatic search.
-The number of results at the time of performing the initial search were \textbf{683} potentially relevant studies.
+% In this stage we perform an automated searchonGoogle Scholar, 
+% which at the time of writing is one ofthe largest and most complete databases and indexing systemsfor scientific literature.
+%  We use such a data source for thefollowing main reasons: 
+%  (i) it provides the highest number ofpotentially relevant studies compared to other four relevant libraries 
+%  (Scopus, ACM Digital Library, IEEE Explore, andWeb of Science), 
+%  (ii) as reported in [44], the adoption of this indexer has proved to be a sound choice to identify 
+%  the initial set of literature studies for the snowballing process, 
+%  (iii) the query results can be automatically extracted from the indexer
+
+For the initial search, \textbf{Google Scholar}\footnote{\url{https://scholar.google.com/}} was used. 
+Google Scholar is at the time of writing one of the largest and most complete database and indexing system for scientific literature.
+It has been used as a data source for the following main reasons:
+\begin{enumerate}
+    \item The adoption of this indexer has proved to be a sound choice to identify the initial set 
+    of literature studies for the snowballing process \cite{wohlin2014snowballing}.
+    \item The query results can be automatically extracted from the indexer using Zotero\footnote{\url{https://www.zotero.org/}}.
+\end{enumerate}
 
 \begin{figure}
     \centering
@@ -72,24 +86,62 @@ The number of results at the time of performing the initial search were \textbf{
     \label{fig:search_string}
 \end{figure}
 
+The results were retrieved using the \textbf{search string} as given in figure \ref{fig:search_string}. 
+The search string is kept as general as possible so that potentially relevant studies that would be able to make it 
+to the primary studies but might not match exactly, are not accidentally filtered out by the automatic search.
+
+The search string consists of three main components, each is given and motivated below:
+\begin{enumerate}
+    \item \textit{intitle: robot} \newline
+    Considering this literature study explicitly focuses on \textbf{robotics}; 
+    the inclusion of \textit{robot} is warranted in the search string to retrieve studies in the context of robotics.
+
+    \item \textit{intitle: power \textbf{OR} green \textbf{OR} energy} \newline 
+    Considering this literature study explicitly focuses on \textbf{energy efficiency};
+    the inclusion of \textit{power} \textbf{OR} \textit{green} \textbf{OR} \textit{energy} related titles is warranted in the search string to retrieve studies focussing on 
+    these concepts.
+    These concepts are deliberately logically seperated with an \textbf{OR} operator to prevent the exclusion of any studies that only focus on a subset.
+
+    \item \textit{software} \newline
+    Considering this literature study explicitly focuses on \textbf{software};
+    the inclusion of software related papers is warranted.
+    This is the only concept that is not explicitly limited to the \textbf{title}, as it is a broad, general term which might not always be mentioned
+    explicitly in the title but does get mentioned in the abstract or keywords.
+    
+\end{enumerate}
+The number of results at the time of performing the initial search were \textbf{683} potentially relevant studies.
+
 \noindent\textbf{2. Filter Types and Duplicates}
 During this step, all publication types that are not peer-reviewed by nature are filtered out. 
-The potentially relevant studies that resulted from the initial search were thus automatically filtered to be only of any of these types: \textit{Journal Articles, Conference Papers, Book Sections, Books}.
+The potentially relevant studies that resulted from the initial search were thus automatically filtered to be only of any of these types: 
+\textit{Journal Articles, Conference Papers, Book Sections}.
 By filtering these types, the total number of potentially relevant studies went down to \textbf{615}. 
-Then, the filtered collection was filtered automatically once more on explicit duplicates; duplicates that match in \textit{Title} and \textit{Author}.
-In case a duplicate was found, meaning a paper was published in more than one instance (for example, if a conference paper was extended to a journal version), only one instance has been counted as a primary study. 
-In those cases the journal version of the study has been preferred, as it is supposed to be the most complete; nevertheless, both versions have been used in the data extraction phase and in the analysis of the publication trends (RQ1, see section \ref{sec:results}).
-After the duplicates were removed the total number of potentially relevant studies decreased to \textbf{610}.
+Then, the filtered collection was filtered automatically once more on 
+syntactic (i.e. papers which are exactly the same) duplicates. 
+Semantic (i.e. different papers about the same approach) duplicates were left to be filtered out manually during the data extraction phase, as explained in
+\ref{sec:study_design:summ_categor}, in order to prevent unintentional removal. 
+However, the approach as followed by this literature study is given for both below:
 
 \vspace{1mm}
 
-\textit{\textbf{Note:} this step only filtered easy duplicates (fully matching Title and Authors sections) by design. Any other duplicate is left to be manually removed in order to prevent unintentional removal.}
+\begin{enumerate}
+    \item[\textit{Syntactic}] In the case of a syntactic duplicate, only one record was kept. 
+    These duplicates are in essence exactly the same, therefore which record to keep is not relevant.
+    However, if applicable, the latest version (latest publication year) has been kept.
+
+    \item[\textit{Semantic}] In the case of a semantic duplicate, meaning a paper was published in more than one instance 
+    (for example, if a conference paper was extended to a journal version), only one instance has been counted as a primary study. 
+    In those cases the journal version of the study has been preferred, as it is supposed to be the most complete; nevertheless, 
+    both versions have been used in the data extraction phase and in the analysis of the publication trends (RQ1, see section \ref{sec:results}).
+
+\end{enumerate}
+After the duplicates were removed the total number of potentially relevant studies decreased to \textbf{610}.
 
 \vspace{5mm}
 
 \noindent\textbf{3. Application of Selection Criteria:}
 During this step the \textbf{610} potentially relevant studies are filtered by applying the selection criteria. 
-The study is added to the set of \textit{primary studies} in case it adheres to \textbf{all} of the inclusion criteria (\textit{i1-i5}) and \textbf{none} of the exclusion criteria (\textit{e1-e5}). 
+The study is added to the set of \textit{primary studies} in case it satisfies \textbf{all} of the inclusion criteria (\textit{i1-i5}) and \textbf{none} of the exclusion criteria (\textit{e1-e5}). 
 These criteria, in the context of \textit{Robotics Software}, consist of:
 \begin{itemize}
 	\item[i1] Studies focussing on energy efficiency.
