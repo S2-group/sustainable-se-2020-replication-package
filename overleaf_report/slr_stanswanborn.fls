@@ -441,6 +441,12 @@ INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\figure
 INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\figures\publication_trend_extended.png
 INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\figures\publication_trend_extended.png
 INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\figures\publication_trend_extended.png
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\mathdesign\mdbch\mdbchri8t.vf
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chri8y.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chri8t.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\eulervm\zeusm10.vf
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\euler\eufm10.tfm
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\euler\eusm10.tfm
 INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\figures\experiment_distr.png
 INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\figures\experiment_distr.png
 INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\figures\experiment_distr.png
@@ -449,9 +455,6 @@ INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\figure
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbch\ts1mdbch.fd
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbch\ts1mdbch.fd
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\mdbchr8c.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\mathdesign\mdbch\mdbchri8t.vf
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chri8y.tfm
-INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chri8t.tfm
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\mathdesign\mdbch\mdbchr8c.vf
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\mathdesign\mdbch\md-chr8c.tfm
 INPUT c:\Users\StanS\Documents\Jupyter Notebooks\SLR_2020\overleaf_report\figures\trade_off_freq.png
@@ -493,6 +496,8 @@ INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\bitstrea\char
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\bitstrea\charter\bchr8a.pfb
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\bitstrea\charter\bchri8a.pfb
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\bitstrea\charter\bchri8a.pfb
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\mathdesign\mdbch\md-chb8t.pfb
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\mathdesign\mdbch\md-chb8t.pfb
 INPUT C:\Users\StanS\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\mathdesign\mdbch\md-chr8t.pfb

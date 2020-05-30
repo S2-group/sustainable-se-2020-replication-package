@@ -1,12 +1,15 @@
 \section{Results}
 \label{sec:results}
-As stated in the introduction, section \ref{sec:intro}, this literature study was somewhat complicated.
+As stated in the introduction, section \ref{sec:intro}, this literature study was complicated by 
+the blurring lines between physical, digital, and biological spheres.
 This literature study set out to discover the state-of-the-art of research on the energy efficiency impact of, \textbf{explicitly} \textit{robotics software}.
-Meaning the explicit impact of various aspects of the software itself.
-
+Meaning the explicit impact on energy efficiency of various aspects of the software itself.
 It became quickly apparent during the search and selection process, as described in section \ref{sec:study_design:search_selection}, 
-that almost no studies existed on this specific topic.
-As of now, of all 683 potentially relevant studies, only two studies have been found that truly research this topic.
+that few studies existed on this specific topic.
+Out of all 683 potentially relevant studies, only two studies have been found that explicitly research this topic.
+
+\vspace{5mm}
+
 One study \cite{rahman2019cloud_robot_offloading} provides proof that a software architectural change; 
 from on-board calculations to off-loading to more available robots or the cloud, actually impacts energy efficiency positively.
 Another study \cite{hou2017novel_cloud_evaluation_model} presents a robotics software evaluation method based on energy consumption.
@@ -14,21 +17,94 @@ The method allows for identifying those robotics software aspects that consume r
 It can also be used to predict the energy consumption of a specific piece of robotics software, allowing it to be used during software development, 
 to create more energy efficient software from the moment it is designed.
 
-The fact that these two studies were the only ones truly covering research into the energy efficiency impact of robotics software aspects will
-form the basis of the discussion, given in section \ref{sec:discussion}.
-To prevent an insignificant literature study, the focus has been shifted from purely looking at software aspects, to see what impact 
-robotics software in general can have on energy efficiency.
+\vspace{5mm}
 
-However, as stated in the introduction (section \ref{sec:intro}), the blurred distinction between software and hardware in robotics made the 
+The fact that these two studies were the only ones explicitly covering research into the energy efficiency impact of robotics software aspects will
+form the basis of the discussion, given in section \ref{sec:discussion}.
+To prevent an insignificant literature study, the focus has been shifted from looking at software aspects, to see what impact 
+robotics software in general can have on energy efficiency. The blurred distinction between software and hardware in robotics made the 
 application of the inclusion criteria a tough process.
 The final selection of primary studies is the result of a rigorous application of these criteria; 
-a study truly had to cover \textit{some} software aspect in relation to energy efficiency.
+a study had to explicitly cover \textit{some} software aspect in relation to energy efficiency.
 
 \vspace{5mm}
 
-This section is sectioned according to the research questions.
-Each section gives a detailed explanation of the findings of this literature study in the context of that research question.
+In this section, the insights gained from the data sheet are summarized and given for each column in subsection \ref{sec:results:insights}.
+Hereafter, this section is structured according to the research questions.
+Each of those subsections gives a detailed explanation of the findings of this literature study in the context of that research question.
 The main findings of each research question are presented at the end of each corresponding subsection.
+
+\subsection{Data sheet insights}
+\label{sec:results:insights}
+The insights, as gained by each of the columns of the data sheet, are given in this subsection.
+Any conclusions drawn from these insights in order to answer the research questions targeted by this literature study,
+are given in their respective subsections \ref{sec:results:rq1_pub_trends}, \ref{sec:results:rq2_state_of_the_art} and \ref{sec:results:rq3_trade_off}.
+
+\vspace{5mm}
+
+\noindent\textbf{1. Date:}
+In figure \ref{fig:pub_trends}, it can be observed that, even though this field of study has been around since before the change of the century,
+it truly attained interest in the last decade (2010 - 2020), with a significant spike nearing 2020.
+It can also be observed that the more thoroughly peer reviewed, higher quality research; journal articles are only published in the last $\approx$5 years.
+
+\begin{figure}[t]
+    \includegraphics[width=250pt]{figures/publication_trend_extended.png}
+    \caption{Publication trends by type}
+    \label{fig:pub_trends}
+\end{figure}
+
+\vspace{5mm}
+
+\noindent\textbf{2. Energy Metric:}
+% Various metrics used
+% Power and Energy separate
+% Joules / KiloJoules / NanoJoules most popular.
+% Most intersting: FPS / W etc.
+% Conclusion: Many different metrics, joules most popular, comparison difficult
+
+\vspace{5mm}
+
+\noindent\textbf{3. QA Trade-off:}
+% Various trade-offs mentioned.
+% Used in RQ 3.
+
+\vspace{5mm}
+
+\noindent\textbf{4. Application Domain:}
+% Exploration / Service robots
+
+\vspace{5mm}
+
+\noindent\textbf{5. Identified Major Consumers:}
+% Software inefficiencies
+% Hardware inefficiencies
+% Hardly win-win, only when time reduced, hardware inefficiency reduced etc. (only with software?)
+
+\vspace{5mm}
+
+\noindent\textbf{6. Identified Improving Software Aspect:}
+% Mostly solving hardware with software
+
+\vspace{5mm}
+
+\noindent\textbf{7. Major Contribution:}
+% For example the entire system, integrating the software aspects to improve inefficiency.
+
+\vspace{5mm}
+
+\noindent\textbf{8. Experiment:}
+% Experiment performed most common: simulation, why?
+
+\vspace{5mm}
+
+\noindent\textbf{9. Comparison Against State-Of-The-Art:}
+% Mostly yes, important for validity!
+
+\vspace{5mm}
+
+\noindent\textbf{10. Energy Model:}
+% Interesting for future research / comparison between the relative studies
+
 
 \subsection{Results - publication trends (RQ1)}
 \label{sec:results:rq1_pub_trends}
@@ -37,13 +113,7 @@ In this section the results obtained when analyzing the publication trends on en
 Understanding the publication trends in the field of study is essential for interpreting the results of this literature study as it gives
 an idea of the maturity of the field.
 
-\begin{figure}
-    \includegraphics[width=250pt]{figures/publication_trend_extended.png}
-    \caption{Publication trends by type}
-    \label{fig:pub_trends}
-\end{figure}
-
-From figure \ref{fig:pub_trends} it can be observed that, eventhough this field of study has been around since before the change of the century,
+From figure \ref{fig:pub_trends} it can be observed that, even though this field of study has been around since before the change of the century,
 it truly attained interest in the last decade (2010 - 2020), with a significant spike nearing 2020.
 
 From these findings we can conclude that the maturity of the field, considering the number of publications relative to their publication dates, 

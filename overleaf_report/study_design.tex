@@ -61,15 +61,6 @@ The process, as displayed in the figure, is further elaborated on in this subsec
 \vspace{5mm}
 
 \noindent\textbf{1. Initial Search:}
-% In this stage we perform an automated searchonGoogle Scholar, 
-% which at the time of writing is one ofthe largest and most complete databases and indexing systemsfor scientific literature.
-%  We use such a data source for thefollowing main reasons: 
-%  (i) it provides the highest number ofpotentially relevant studies compared to other four relevant libraries 
-%  (Scopus, ACM Digital Library, IEEE Explore, andWeb of Science), 
-%  (ii) as reported in [44], the adoption of this indexer has proved to be a sound choice to identify 
-%  the initial set of literature studies for the snowballing process, 
-%  (iii) the query results can be automatically extracted from the indexer
-
 For the initial search, \textbf{Google Scholar}\footnote{\url{https://scholar.google.com/}} was used. 
 Google Scholar is at the time of writing one of the largest and most complete database and indexing system for scientific literature.
 It has been used as a data source for the following main reasons:
@@ -142,13 +133,14 @@ After the duplicates were removed the total number of potentially relevant studi
 \noindent\textbf{3. Application of Selection Criteria:}
 During this step the \textbf{610} potentially relevant studies are filtered by applying the selection criteria. 
 The study is added to the set of \textit{primary studies} in case it satisfies \textbf{all} of the inclusion criteria (\textit{i1-i5}) and \textbf{none} of the exclusion criteria (\textit{e1-e5}). 
-These criteria, in the context of \textit{Robotics Software}, consist of:
+These criteria consist of:
 \begin{itemize}
-	\item[i1] Studies focussing on energy efficiency.
-    \item[i2] Studies focussing on software aspects.
-    \item[i3] Studies providing evaluation.
-    \item[i4] Studies that are peer-reviewed.
-    \item[i5] Studies written in English.
+    \item[i1] Studies focussing on robotics.
+	\item[i2] Studies focussing on energy efficiency.
+    \item[i3] Studies focussing on software aspects.
+    \item[i4] Studies providing evaluation.
+    \item[i5] Studies that are peer-reviewed.
+    \item[i6] Studies written in English.
     
 	\item[e1] Studies that, while focussing on energy efficiency, do not explicitly deal with any software aspect.
     \item[e2] Studies where energy efficiency is only used as an example.
@@ -170,12 +162,77 @@ The following steps were followed for each of the \textbf{610} potentially relev
 \end{itemize}
 
 Once the application of the selection criteria was completed for the entire set of potentially relevant studies,
-a total of \textbf{15} papers were identified to adhere to \textbf{all} of the \textit{inclusion criteria} and
+a total of \textbf{15} papers were identified to satisfy \textbf{all} of the \textit{inclusion criteria} and
 \textbf{none} of the \textit{exclusion criteria}. These formed the set of \textbf{considered studies}.
 
 \vspace{5mm}
 
 \noindent\textbf{4. Snowballing:}
+% This table is not for snowballing, but does not want to move a page up if not put here.
+% Even while using the [t] option.
+\begin{table*}[t]
+    \centering
+    \caption{Data sheet columns.}
+    \begin{tabular}{cllc}
+        \toprule
+            ID &
+            Column Name & 
+            Example Value & 
+            Relevant RQ  \\
+        \midrule
+            1 &
+               Date & 
+                \textit{2020} & 
+                RQ1 \\
+
+            2 &
+                Energy Metric & 
+                \textit{FPS / W (Watt)} & 
+                RQ2 \\
+
+            3 &
+                QA Trade-off & 
+                \textit{Performance vs Efficiency} & 
+                RQ3 \\
+                
+            4 &
+                Application Domain & 
+                \textit{Robot Exploration} & 
+                RQ2 \\
+
+            5 & 
+                Identified Major Consumers & 
+                \textit{Too many stops and turns in path} & 
+                RQ2 \\
+
+            6 & 
+                Identified Improving Software Aspect & 
+                \textit{Improved path finder} & 
+                RQ2 \\
+            
+            7 &
+                Major Contribution & 
+                \textit{The actual improved, evaluated, path finder algorithm} & 
+                RQ2 \\
+            
+            8 &
+                Experiment & 
+                \textit{None / Simulation / Real-World / Combination} & 
+                RQ2 \\
+            
+            9 &
+                Comparison Against State-Of-The-Art & 
+                \textit{Yes / No} & 
+                RQ2 \\
+            
+            10 &
+                Energy Model &
+                \textit{1 Unit of Distance = 1 Unit of Energy} & 
+                RQ2 \\
+        \bottomrule
+    \end{tabular}
+    \label{table:data_sheet}
+\end{table*}
 In this phase the automatic search was complemented with recursive \textit{backward} and \textit{forward} snowballing \cite{wohlin2014snowballing}.
 During the \textit{backward} snowballing, all references of each \textit{considered study} were added to the potentially relevant studies. 
 After each reference from each considered study was added, the steps for applying the selection criteria, as given above, were once more followed. 
@@ -191,62 +248,24 @@ On completion of the snowballing process, the set of considered studies grew to 
 \vspace{5mm}
 
 \noindent\textbf{5. Exclusion during Data Extraction:}
+Papers that made it to the collection of primary studies can still be removed from the set during the data extraction phase if they 
+are found to satisfy one of the \textit{exclusion criteria} while reading the study full-text.
+
+What the data extraction phase consists of, is explained in section \ref{sec:study_design:data_extract}.
+
+For this literature study, a total of \textbf{4} papers have been excluded during data extraction. 
+
+\subsection{Data Extraction}
+\label{sec:study_design:data_extract}
 During the data extraction phase, each \textit{primary study} is read full-text and its findings are used to construct a data sheet.
 This data sheet aims to cover all similarities and patterns between the primary studies so that this literature study can be written, comparing their findings.
-During this data extraction, papers that made it to the collection of primary studies can still be removed from the set if they are found to adhere to one of the \textit{exclusion criteria}.
+The data sheet was improved in multiple iterations, discussing each iteration with my supervisor.
 
-The data sheet constructed during this phase, consists of a set of columns. 
-These columns, example values and their most relevant RQ are given in table \ref{table:data_sheet}.
+The data sheet constructed during this phase; its columns, example values and their most relevant RQ are given in table \ref{table:data_sheet}.
 
-\begin{table*}[t]
-    \centering
-    \caption{Data sheet columns.}
-    \begin{tabular}{llc}
-        \toprule
-            Column Name & 
-            Example Value & 
-            Relevant RQ  \\
-        \midrule
-            Date & 
-                \textit{2020} & 
-                RQ1 \\
-            Energy Metric Used & 
-                \textit{FPS / W (Watt)} & 
-                RQ2 \\
-            QA Trade-off presented & 
-                \textit{Timeliness vs Efficiency} & 
-                RQ3 \\
-            Application Domain & 
-                \textit{Robot Exploration} & 
-                RQ2 \\
-            Identified Major Consumers & 
-                \textit{Too many stops and turns in path} & 
-                RQ2 \\
-            Identified (Software) Aspect Improving Efficiency & 
-                \textit{Improved path finder} & 
-                RQ2 \\
-            Major Contribution & 
-                \textit{The actual improved, evaluated, path finder algorithm} & 
-                RQ2 \\
-            Experiment & 
-                \textit{None / Simulation / Real-World / Combination} & 
-                RQ2 \\
-            Comparison Against State-Of-The-Art & 
-                \textit{Yes / No} & 
-                RQ2 \\
-            Energy Model Used &
-                \textit{1 Unit of Distance = 1 Unit of Energy} & 
-                RQ2 \\
-        \bottomrule
-    \end{tabular}
-    \label{table:data_sheet}
-\end{table*}
-
-\subsection{Summarization and Categorization}
-\label{sec:study_design:summ_categor}
-Arriving at this step, the set of \textit{primary studies} is finalized, now consisting of \textbf{17} papers. 
-A total of 4 papers have been excluded during data extraction.
-After reading all primary studies once more, their data sheets, as given in table \ref{table:data_sheet}, are filled in manually. 
-Once the data sheet was fully filled in, the report could be written. 
-The results, as shown in section \ref{sec:results}, are based on this completed data sheet.
-This completed data sheet is available in two parts in the Appendix: Part 1 \ref{appendix:data_sheet_1} and Part 2 \ref{appendix:data_sheet_2}.
+\subsection{Data Synthesis}
+\label{sec:study_design:data_synth}
+Arriving at this step, the set of \textit{primary studies} is finalized, now consisting of \textbf{17} papers.
+During the data synthesis phase, the filled out datasheet, as given in appendix \ref{appendix:data_sheet_1} and \ref{appendix:data_sheet_2}, 
+was used to plot the results and gain insights.
+These are given in section \ref{sec:results}.
