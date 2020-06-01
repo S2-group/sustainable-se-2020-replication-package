@@ -8,7 +8,7 @@ It became quickly apparent during the search and selection process, as described
 that few studies existed on this specific topic.
 Out of all 683 potentially relevant studies, only two studies have been found that explicitly research this topic.
 
-\vspace{5mm}
+\vspace{2mm}
 
 One study \cite{rahman2019cloud_robot_offloading} provides proof that a software architectural change; 
 from on-board calculations to off-loading to more available robots or the cloud, actually impacts energy efficiency positively.
@@ -17,7 +17,7 @@ The method allows for identifying those robotics software aspects that consume r
 It can also be used to predict the energy consumption of a specific piece of robotics software, allowing it to be used during software development, 
 to create more energy efficient software from the moment it is designed.
 
-\vspace{5mm}
+\vspace{2mm}
 
 The fact that these two studies were the only ones explicitly covering research into the energy efficiency impact of robotics software aspects will
 form the basis of the discussion, given in section \ref{sec:discussion}.
@@ -27,12 +27,14 @@ application of the inclusion criteria a tough process.
 The final selection of primary studies is the result of a rigorous application of these criteria; 
 a study had to explicitly cover \textit{some} software aspect in relation to energy efficiency.
 
-\vspace{5mm}
+\vspace{2mm}
 
 In this section, the insights gained from the data sheet are summarized and given for each column in subsection \ref{sec:results:insights}.
 Hereafter, this section is structured according to the research questions.
 Each of those subsections gives a detailed explanation of the findings of this literature study in the context of that research question.
 The main findings of each research question are presented at the end of each corresponding subsection.
+
+% ========================================================================= Insights =========================================================================
 
 \subsection{Data sheet insights}
 \label{sec:results:insights}
@@ -45,7 +47,7 @@ are given in their respective subsections \ref{sec:results:rq1_pub_trends}, \ref
 \noindent\textbf{1. Date:}
 In figure \ref{fig:pub_trends}, it can be observed that, even though this field of study has been around since before the change of the century,
 it truly attained interest in the last decade (2010 - 2020), with a significant spike nearing 2020.
-It can also be observed that the more thoroughly peer reviewed, higher quality research; journal articles are only published in the last $\approx$5 years.
+It can also be observed that the more thoroughly peer reviewed, higher quality research; journal articles are only published in the last $\pm 5$ years.
 
 \begin{figure}[t]
     \includegraphics[width=250pt]{figures/publication_trend_extended.png}
@@ -53,58 +55,178 @@ It can also be observed that the more thoroughly peer reviewed, higher quality r
     \label{fig:pub_trends}
 \end{figure}
 
-\vspace{5mm}
+\vspace{2mm}
 
-\noindent\textbf{2. Energy Metric:}
+\noindent\textbf{2. Energy Metric:} % Might be more sensible to change to Efficiency Metric
 % Various metrics used
 % Power and Energy separate
 % Joules / KiloJoules / NanoJoules most popular.
 % Most intersting: FPS / W etc.
 % Conclusion: Many different metrics, joules most popular, comparison difficult
+It can be observed that the energy metric used in the primary studies differs significantly.
+In the case that a simplified energy model is used, as explained in part 10 of this subsection, the energy metric is the most unique;
+units of distance traveled per units of energy \cite{mei2006mobile_exploration, patel2012exploration_strategy}.
 
-\vspace{5mm}
+All other energy metrics given use a study specific metric in relation to either; energy, \textbf{Joules} (\textit{J}) or power, \textbf{Watts} (\textit{W}).
+The three most common, descriptive and comparable metrics observed are:
+\begin{enumerate}
+    \item $FPS / Watt$ \cite{cheng2018FPGA_image_recognition}
+    \item $Joules / Meter$ \cite{licea2013wireless_comms}
+    \item $Joules / H$ or $Watts / H$ \cite{kim2016firefighting_robot,barili1995efficient_motion}
+\end{enumerate}
+
+\vspace{2mm}
 
 \noindent\textbf{3. QA Trade-off:}
 % Various trade-offs mentioned.
 % Used in RQ 3.
+\todo{Write after RQ3}
 
-\vspace{5mm}
+\vspace{2mm}
 
 \noindent\textbf{4. Application Domain:}
 % Exploration / Service robots
+\begin{figure}[t]
+    \includegraphics[width=250pt]{figures/app_domains_freq.png}
+    \caption{Application domains frequency}
+    \label{fig:app_domains}
+\end{figure}
+In figure \ref{fig:app_domains} it can be observed that the application domain of \textbf{Robot Exploration} is the most frequent
+domain considered in the primary studies. 
+The domain of \textbf{Industrial Robot} is at the second place with less than half the frequency.
 
-\vspace{5mm}
+This is interesting, considering that in terms of emmissions and energy saving potential, there is far more to achieve in the industrial domain
+as specified in the introduction; section \ref{sec:intro}.
+From this statistic one could thus reason that the combination of functional and efficiency improvements forms the main motivation. 
+The extension of the operational time of a mobile robot, as a result of the improved energy efficiency, 
+is far more functionally relevant than reducing the energy consumption of an industrial robot;
+considering the industrial robot has a continuous power supply, energy efficiency is not as functionally important as it will
+not deliver any functional improvement. 
+Rather, as specified in part 3 (QA Trade-off) of this subsection, it will most likely have some (negative) impact on performace.
+
+\vspace{2mm}
 
 \noindent\textbf{5. Identified Major Consumers:}
 % Software inefficiencies
 % Hardware inefficiencies
 % Hardly win-win, only when time reduced, hardware inefficiency reduced etc. (only with software?)
+The identified major consumers in the primary studies vary considerably, as can be seen in appendix \ref{appendix:data_sheet_1}.
+This is a result from the different application domains and their implementation specific details.
+However, a common theme can be identified:
 
-\vspace{5mm}
+\vspace{2mm}
+
+No matter the application domain, any identified inefficiency is always traced back to a hardware inefficiency, 
+which is solved by improving software.
+
+\vspace{2mm}
+
+Considering robots use software to control their physical hardware, and the fact that robots exist to satisfy some physical need, this makes sense.
+From all primary studies, only one identifies solely software itself as the main consumer \cite{hou2017novel_cloud_evaluation_model}.
+It presents a novel cloud evaluation model; which evaluates the energy efficiency of the software itself.
+Using the model, the software itself; its execution, can be made more efficient.
+
+\vspace{2mm}
+
+The fact that this is the only study addressing this aspect of robotics software, forms the basis of the discussion in section \ref{sec:discussion}.
+
+
+\vspace{2mm}
 
 \noindent\textbf{6. Identified Improving Software Aspect:}
 % Mostly solving hardware with software
+Among the primary studies, all inefficiencies are solved by improving the robotics software;
+as this literature study explicitly targets such studies.
+As the presented improvements are very implementation specific, they are hardly comparable.
+However, a common theme among the improvements can be identified:
+Each improvement solves a hardware inefficiency using software; however, each improvement does so to various degree.
+Two examples from the primary studies:
 
-\vspace{5mm}
+\begin{itemize}
+    \item Improving the path planning algorithm (\textit{software}) to limit inefficient use of \textit{hardware} as the path
+    is more energy efficient (shorter, less stops and/or turns, etc.) (\textbf{low degree of improved hardware ineffiency}) \cite{mei2006mobile_exploration}.
+    \item Introducing an algorithm (\textit{software}) which off-loads computations to a more energy-optimized cloud infrastructure (\textit{hardware}) 
+    (\textbf{high degree of improved hardware inefficiency}) \cite{rahman2019cloud_robot_offloading}.
+\end{itemize}
+
+\vspace{2mm}
 
 \noindent\textbf{7. Major Contribution:}
 % For example the entire system, integrating the software aspects to improve inefficiency.
+For each of the primary studies the major contribution is the implementation and evaluation of the identified software aspect that would
+improve the inefficiency. 
+This column can therefore be seen as an extension of the previous column (\textit{6. Identified Improving Software Aspect}).
 
-\vspace{5mm}
+\vspace{2mm}
 
 \noindent\textbf{8. Experiment:}
 % Experiment performed most common: simulation, why?
+\begin{figure}
+    \includegraphics[width=250pt]{figures/experiment_distr.png}
+    \caption{Experiment distribution}
+    \label{fig:experiment_distr}
+\end{figure}
+Most studies performed an experiment, only one primary study did not.
+From figure \ref{fig:experiment_distr}, it can be observed that most studies (9) perform an experiment in the form of a simulation, 
+this is without counting the combination of real-world and simulation.
+considering those would bump the number of primary studies using a simulation as experiment to 12, $\pm 70\%$ of the primary studies.
+Four primary studies performed a real-world experiment.
+Three studies performed a combination of real-world and simulated experiments.
 
-\vspace{5mm}
+For understanding the experiments, especially the simulations, the energy model used is of high value; this is given in appendix \ref{appendix:data_sheet_2}.
+
+\vspace{2mm}
 
 \noindent\textbf{9. Comparison Against State-Of-The-Art:}
 % Mostly yes, important for validity!
+To verify the validity of the claims presented in the primary studies, the comparison against the state-of-the-art is important.
+In 14 of the 17 primary studies ($\pm 80\%$) a comparison was made.
+From the three studies that had no comparison, one was a paper presenting a novel cloud evaluation model \cite{hou2017novel_cloud_evaluation_model}
+which has no state-of-the-art to compare to as it presents something completely new.
 
-\vspace{5mm}
+\vspace{2mm}
+
+It is therefore safe to say that 15 of the 17 primary studies ($\pm 90\%$) uphold the comparison.
+
+\vspace{2mm}
+
+This is of importance as this literature study's validity is dependent upon the validity of the literature it is based on.
+The threats to the validity of this literature study, and what has been done to mitigate these threats,
+is further detailed in section \ref{sec:threats}.
+
+\vspace{2mm}
 
 \noindent\textbf{10. Energy Model:}
 % Interesting for future research / comparison between the relative studies
+The energy model used in any of the primary studies is given in appendix \ref{appendix:data_sheet_2}.
+The validity of the contributions of the studies is dependent on the validity of the energy model used (if applicable), 
+therefore these are recorded and given.
 
+\vspace{2mm}
+
+They can also be valuable for any practitioner or researcher that seeks insight into energy models for simulation.
+
+\vspace{2mm}
+
+Many different energy models have been used by the various primary studies, some try to simulate the energy consumption 
+as precisely as possible by simulating drag, torque, acceleration, decelleration, etc. with advanced mathematics. 
+Two papers \cite{patel2012exploration_strategy, mei2006mobile_exploration}, use the same approach as their energy model.
+The energy model used is very simple and it is the only model in the primary studies which is used by multiple papers;
+these papers are written by different authors but within the same field of study; mobile robot exploration.
+The model they use consists of a simulated grid, where each grid cell consists of 1x1 Units of Distance, 
+and travelling 1 Unit of Distance equals 1 Unit of Energy.
+Each stop costs 0.5 Units of Energy and each 45° turn costs 0.4 Units of Energy, each additional 45° adding another 
+0.2 Units of Energy to the total cost.
+Meaning: a 90° turn would cost 0.6 Units of Energy and a 135° turn would cost 0.8 Units of Energy etc.
+
+\vspace{2mm}
+
+This simple energy model is only relevant for simulating the energy cost of moving the robot.
+It is however interesting, that none of the energy models, not even the mathematically advanced ones, are capable of 
+simulating any computational energy usage.
+Therefore, in studies where this is of importance, only a real-world experiment was able to provide these insights.
+
+% ========================================================================= RQ 1 =========================================================================
 
 \subsection{Results - publication trends (RQ1)}
 \label{sec:results:rq1_pub_trends}
@@ -113,10 +235,7 @@ In this section the results obtained when analyzing the publication trends on en
 Understanding the publication trends in the field of study is essential for interpreting the results of this literature study as it gives
 an idea of the maturity of the field.
 
-From figure \ref{fig:pub_trends} it can be observed that, even though this field of study has been around since before the change of the century,
-it truly attained interest in the last decade (2010 - 2020), with a significant spike nearing 2020.
-
-From these findings we can conclude that the maturity of the field, considering the number of publications relative to their publication dates, 
+From these findings, as stated in part 1. of subsection \ref{sec:results:insights}, we can conclude that the maturity of the field, considering the number of publications relative to their publication dates, 
 is rather limited the further back we go in time. It is important to take this into account for both the findings of this literature study, presented in the following subsections 
 \ref{sec:results:rq2_state_of_the_art} and \ref{sec:results:rq3_trade_off}, and for the discussion as presented in section \ref{sec:discussion}.
 Considering the aforementioned difficulty with the initial goal of this literature study; from the publication trends we can see that this 
@@ -128,109 +247,102 @@ is probably the case because of a rather immature field of study.
 \noindent \textbf{Main Findings.}
 \begin{enumerate}[nolistsep]
 \item The field of study has been around since before the change of the century.
-\item However, the field can still be considerd immature as publications only recently attained in numbers.
-\item The lack of studies focussing on the energy impact of software aspects of robotics software can be explained by these publication trends.
+\item The field can still be considerd immature as publications only recently attained in numbers.
 \end{enumerate}}}
+
+% ========================================================================= RQ 2 =========================================================================
 
 \subsection{Results - state-of-the-art (RQ2)}
 \label{sec:results:rq2_state_of_the_art}
 In this section the state-of-the-art in analyzing and improving energy efficiency in robotics software is presented as found from studying the primary studies.
 
 \noindent\textbf{1. Analyzing:}
-The state-of-the-art in terms of analyzing energy inefficiency would be from study \cite{hou2017novel_cloud_evaluation_model} in which the authors
-identify Software as the main component in robotics and thus should also be the main consumer or at least have a significant impact on the
-total energy consumption of a robotic system.
-For this, the authors developed a method to identify bottlenecks and relatively high consumers in the software of existing systems.
-For software that is designed with energy consumption in mind, the authors present a method to be able to predict the energy consumption
-of a specific piece of software.
+The novel cloud evaluation method \cite{hou2017novel_cloud_evaluation_model}, introduces a whole new paradigm in robotics software.
+This can be concluded as it is the only paper out of 683 potentially relevant studies, and 17 primary studies, 
+that explicitly looks at the execution of robotics software itself for improvement of energy efficiency.
 
-\begin{figure}
-    \includegraphics[width=250pt]{figures/experiment_distr.png}
-    \caption{Experiment distribution}
-    \label{fig:experiment_distr}
-\end{figure}
+It presents a novel method to evaluate the energy efficiency of a specific piece of software.
+The method can be used on existing software, to identifiy bottlenecks, or used during the development of the software itself;
+providing the ability to improve the energy efficiency of the software execution during design time.
 
+It can be considered the state-of-the-art of evaluation and analysis, in robotics software.
 However, it should be considered that this was the only paper that focussed so explicitly on software and its impact on energy.
-Considering the 16 other primary studies, we can say that another big standard in this field is the evaluation through practice; 
+Considering the 16 other primary studies, and the observations made as stated in part 8 of subsection \ref{sec:results:insights}; 
+it can be stated that another big standard in this field is the evaluation through practice; 
 in the form of a simulation, a real-world experiment or a combination thereof.
-From the set of primary studies only study \cite{barili1995efficient_motion} does not feature some form of an experiment.
-The relative differences in the measurements taken during an experiment give an idea of the energy efficiency of one method compared to another.
-The distribution of experiment types can be observed in figure \ref{fig:experiment_distr}.
-It can be observed that a simulation is by far the most popular form of evaluation, used by over $50\%$ of all primary studies.
-When considering the combination of simulation and real-world experiments as well, approximately $70\%$ use a simulation as form of evaluation.
-
-An \textbf{energy model} is of course needed when simulating the robotic system. 
-For this, many different energy models have been used by the various primary studies, some try to simulate the energy consumption 
-as precisely as possible by simulating drag, torque, acceleration, decelleration, etc. with advanced mathematics.
-
-However, many papers have been using a simple energy model.
-A concrete example of this can be found in two papers; \cite{patel2012exploration_strategy} and \cite{mei2006mobile_exploration}. 
-The first being a study from 2012 and the latter being a study from 2006. 
-These papers are written by different authors but within the same field of study; mobile robot exploration.
-The model they use consists of a simulated grid, where each grid cell consists of 1x1 Units of Distance, 
-and travelling 1 Unit of Distance equals 1 Unit of Energy.
-Each stop costs 0.5 Units of Energy and each 45° turn costs 0.4 Units of Energy, each additional 45° adding another 
-0.2 Units of Energy to the total cost.
-Meaning: a 90° turn would cost 0.6 Units of Energy and a 135° turn would cost 0.8 Units of Energy etc.
-
-If the problem solved is more global (f.e. the path finder is improved) a simple energy model will suffice.
-However, when the software presented solves a very local problem, f.e. an improved algorithm for turning a specific type of motor,
-a more elaborate, mathematically sound energy model is needed.
 
 \vspace{5mm}
 
 \noindent\textbf{2. Improving:}
-The state-of-the-art in improving energy efficiency in robotics software is numerous. 
-A trend observed from the primary studies is, however, that they mostly solve hardware (physical) inefficiencies using elaborate
-software solutions, like an improved algorithm.
-It is however, by definition, not improving energy efficiency in robotics software.
-But considering this has been mentioned multiple times, and forms the basis of the discussion in section \ref{sec:discussion}, 
-this section will detail what has been found by studying the primary studies in the context of improving energy efficiency 
-by \textit{using} robotics software in general.
+The methods to improve energy efficiency in robotics software vary significantly across the primary studies. 
+As stated in part 5 and 6 of subsection \ref{sec:results:insights}; a trend observed is that they mostly solve hardware (physical) 
+inefficiencies using software solutions, like an improved algorithm.
 
-The state-of-the-art in improving energy efficiency in robotics software is numerous, the prime examples are given here.
-Each primary study presented an evaluated software solution that improves energy efficiency in one specific way.
-If one would apply all applicable paradigms to a robotic system, 
-the energy efficiency of that robotic system is guaranteed to be significantly improved.
-The prime examples consist of:
+\vspace{2mm}
 
-- The notion of off-loading computations to other, nearby, robots that are more 'available' 
+As stated before, this literature study initially set out to research the state-of-the-art in terms of improving the
+energy efficiency of robotics software \textit{itself}.
+The fact that only two of the primary studies presented such research forms the basis of the discussion in section \ref{sec:discussion}, 
+this section will therefore detail what has been found by studying the primary studies in the context of improving energy efficiency 
+by \textit{using} robotics software.
+
+\vspace{2mm}
+
+Each primary study presented an evaluated software solution that improves energy efficiency.
+The prime techniques extracted from the primary studies consist of:
+
+\vspace{2mm}
+
+- The technique to off-load computations to other, nearby, robots that are more 'available' 
 (i.e. robots that have more resources available for such computations relative to the current one.), or to off-load it to the cloud.
-The concept here is that the cloud infrastructure is more optimized, and will thus result in an improved energy efficiency. 
-Also, a nearby robot that is more 'available' has just as much computational power as the current robot, and the same energy efficiency
-but as the latency between the current robot and the nearby robot is lower than that with the cloud infrastructure a severe trade-off between
-Timeliness and Efficiency can be prevented.
-Eventhough some energy is wasted in the transmission of data, the overall energy consumption is decreased \cite{rahman2019cloud_robot_offloading}.
+The concept here is that the cloud infrastructure (hardware itself, hardware utilization, etc) is more energy-optimized compared to the
+hardware used on the robots themselves, and will thus result in an improved energy efficiency.
+Even though some energy is wasted in the transmission of data, the overall energy consumption is decreased \cite{rahman2019cloud_robot_offloading}.
     
-- The notion of improving the path finding for mobile robot exploration. 
+\vspace{2mm}
+
+- The technique to improve the path finding for mobile robot exploration. 
 Many existing studies select the next target based on the utilities and costs of the frontier cells 
 \cite{burgard2005multi_robot_exploration, simmons2000multi_robot_exploration,zlot2002multi_robot_exploration} 
 However, study \cite{mei2006mobile_exploration} proves that if the next target is selected based on the orientation of the robot, 
 that overlap in the robot trajectory is guaranteed to be impossible. This decreases inefficiency by nature, and thus improves energy 
 efficiency.
+    
+\vspace{2mm}
 
-- The notion that limiting stops, turns, directional changes and the degree to which the direction is changed as much as possible 
-significantly improves energy efficiency. By the very nature of this notion, an improved obstacle detection and avoidance algorithm
-is needed for mobile robotic systems. This notion is widespread over the primary studies, and presented and evaluated in 
+- The technique to limit stops, directional changes (turns) and the degree to which the direction is changed as much as possible 
+significantly improves energy efficiency. By the very nature of this technique, an improved obstacle detection and avoidance algorithm
+is needed for mobile robotic systems. This technique is widespread over the primary studies, and presented and evaluated in 
 \cite{xie2018mecanum_wheel, kim2016firefighting_robot, benkrid2016multi_robot_exploration, barili1995efficient_motion, 
 jia2004grid_strategy_exploration, mei2005energy_consumers_identified, patel2012exploration_strategy}.
+    
+\vspace{2mm}
 
-- The notion that motion at high speeds, with numerous moments of acceleration and decelleration is to be prevented
+- The technique to limit motion at high speeds, with numerous moments of acceleration and decelleration
 \cite{wingstrom2013robot_cell_scheduling}.
+    
+\vspace{2mm}
 
-- The notion that idle time should be prevented as much as possible \cite{gurel2019industrial_robot_scheduling, 
+- The technique to prevent idle time as much as possible \cite{gurel2019industrial_robot_scheduling, 
 kaitwanidvilai2020industrial_robot_cycle_time, wingstrom2013robot_cell_scheduling}.
+    
+\vspace{2mm}
 
-- The notion of applying well-accepted Computer Science paradigms, like the popular MapReduce paradigm for distributed systems,
-to multi-robot systems. Limiting data traffic using MapReduce \cite{huh2013distributed_swarm}.
+- The technique to limit data transmission by preventing the transmission of duplicate data in distributed robotic systems \cite{huh2013distributed_swarm}.
 
-- The notion of limiting physical inefficiencies, like the loss of traction, by using an elaborate software solution.
-Like adding subrobots communicating using distributed systems paradigms \cite{kim2016firefighting_robot}.
+\vspace{2mm}
 
-- The notion that the use of more advanced hardware (i.e. more optimised, desktop grade, hardware instead of custom robotic hardware) 
-on robots in combination with optimised software improves energy efficiency significantly \cite{cheng2018FPGA_image_recognition}.
+- The technique to limit physical inefficiencies (e.g. loss of traction because of payload weight), if possible, by adding more robots to the system which would cause the overall
+energy consumption to go down as the physical inefficiency (now solved) was consuming more energy than the addition of the subrobots \cite{kim2016firefighting_robot}.
+    
+\vspace{2mm}
 
-- The notion that sacrificing some energy on finding a better position for the transmission of data over a wireless connection
+- The technique to use more advanced hardware (i.e. more energy-optimized, desktop grade, hardware instead of custom robotic hardware) 
+on robots in combination with energy-optimized software to improve energy efficiency significantly \cite{cheng2018FPGA_image_recognition}.
+    
+\vspace{2mm}
+
+- The technique that sacrificing some energy on finding a better position for the transmission of data over a wireless connection
 (a higher channel gain) will ultimately improve energy efficiency as less time is spend and wasted on (re)transmitting 
 data over a bad wireless connection \cite{licea2013wireless_comms}.
 
@@ -239,18 +351,18 @@ data over a bad wireless connection \cite{licea2013wireless_comms}.
 \noindent\fcolorbox{black}[HTML]{FFFFFF}{\parbox{0.47\textwidth}{%
 \noindent \textbf{Main Findings.}
 \begin{enumerate}[nolistsep]
-\item The state-of-the-art on analyzing the energy efficiency of robotics software is provided by \cite{hou2017novel_cloud_evaluation_model}, allowing for the identification of bottlenecks in software and the prediction of energy consumption of a piece of software.
-\item However, the most common way to analyze the energy efficiency of robotics software consists of performing experiments, evaluating the results.
-\item The state-of-the-art on improving the energy efficiency is numerous, but generally consists of:
+\item The most common way to analyze the energy efficiency of robotics software consists of performing experiments, evaluating the results.
+\item The state-of-the-art on improving the energy efficiency consists of:
     \begin{enumerate}
-        \item Off-loading computations to optimised infrastructure.
-        \item The application of well-accepted, well-established Computer Science paradigms, like the popular MapReduce paradigm for distributed systems.
+        \item Off-loading computations to more energy-optimized infrastructure.
         \item Improved path finding, obstacle avoidance etc.
         \item Limit physical inefficiencies, idle time, acceleration, decelleration, stops, turns, directional changes and the extent of the directional change.
-        \item The use of more optimised hardware.
+        \item The use of more energy-optimized hardware on robotics themselves.
         \item Sacrificing some energy to achieve higher efficiency, f.e. finding a better location with better signal for data transmission.
     \end{enumerate}
 \end{enumerate}}}
+
+% ========================================================================= RQ 3 =========================================================================
 
 \subsection{Results - energy QA trade-off (RQ3)}
 \label{sec:results:rq3_trade_off}

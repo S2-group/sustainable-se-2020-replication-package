@@ -96,17 +96,31 @@ A.~Rahman, J.~Jin, A.~Rahman, A.~Cricenti, M.~Afrin, and Y.-n. Dong,
 G.~Hou, K.~Zhou, T.~Qiu, X.~Cao, M.~Li, and J.~Wang, ``A novel green software
   evaluation model for cloud robotics,'' p. 139–156, 2017.
 
-\bibitem{barili1995efficient_motion}
-A.~Barili, M.~Ceresa, and C.~Parisi, ``Energy-saving motion control for an
-  autonomous mobile robot,'' p. 674–676, 1995.
+\bibitem{mei2006mobile_exploration}
+Y.~Mei, Y.-H. Lu, C.~G. Lee, and Y.~C. Hu, ``Energy-efficient mobile robot
+  exploration,'' p. 505–511, 2006.
 
 \bibitem{patel2012exploration_strategy}
 S.~Patel, A.~Shukla, and R.~Tiwari, ``Efficient strategy for co-ordinated
   multirobot exploration,'' p. 105–111, 2012.
 
-\bibitem{mei2006mobile_exploration}
-Y.~Mei, Y.-H. Lu, C.~G. Lee, and Y.~C. Hu, ``Energy-efficient mobile robot
-  exploration,'' p. 505–511, 2006.
+\bibitem{cheng2018FPGA_image_recognition}
+H.~Cheng, S.~Sato, and H.~Nakahara, ``A performance per power efficient object
+  detector on an fpga for robot operating system (ros),'' 2018.
+
+\bibitem{licea2013wireless_comms}
+D.~B. Licea, D.~McLernon, M.~Ghogho, and S.~A.~R. Zaidi, ``An energy saving
+  robot mobility diversity algorithm for wireless communications,'' p. 1–5,
+  2013.
+
+\bibitem{kim2016firefighting_robot}
+J.~Kim, J.~E. Dietz, and E.~T. Matson, ``Modeling of a multi-robot energy
+  saving system to increase operating time of a firefighting robot,'' p. 1–6,
+  2016.
+
+\bibitem{barili1995efficient_motion}
+A.~Barili, M.~Ceresa, and C.~Parisi, ``Energy-saving motion control for an
+  autonomous mobile robot,'' p. 674–676, 1995.
 
 \bibitem{burgard2005multi_robot_exploration}
 W.~Burgard, M.~Moors, C.~Stachniss, and F.~Schneider, ``Coordinated multi-robot
@@ -125,11 +139,6 @@ L.~Xie, C.~Henkel, K.~Stol, and W.~Xu, ``Power-minimization and
   energy-reduction autonomous navigation of an omnidirectional mecanum robot
   via the dynamic window approach local trajectory planning,''
   \emph{International Journal of Advanced Robotic Systems}, 2018.
-
-\bibitem{kim2016firefighting_robot}
-J.~Kim, J.~E. Dietz, and E.~T. Matson, ``Modeling of a multi-robot energy
-  saving system to increase operating time of a firefighting robot,'' p. 1–6,
-  2016.
 
 \bibitem{benkrid2016multi_robot_exploration}
 A.~Benkrid, A.~Benallegue, and N.~Achour, ``Multi-robot coordination for
@@ -157,15 +166,6 @@ S.~Kaitwanidvilai, V.~Chanarungruengkij, and P.~Konghuayrob, ``Remote sensing
 \bibitem{huh2013distributed_swarm}
 S.~Huh, S.~Hong, and J.~Lee, ``Energy-efficient distributed programming model
   for swarm robot,'' p. 300–305, 2013.
-
-\bibitem{cheng2018FPGA_image_recognition}
-H.~Cheng, S.~Sato, and H.~Nakahara, ``A performance per power efficient object
-  detector on an fpga for robot operating system (ros),'' 2018.
-
-\bibitem{licea2013wireless_comms}
-D.~B. Licea, D.~McLernon, M.~Ghogho, and S.~A.~R. Zaidi, ``An energy saving
-  robot mobility diversity algorithm for wireless communications,'' p. 1–5,
-  2013.
 
 \bibitem{iso2011quality_attributes}
 \BIBentryALTinterwordspacing
