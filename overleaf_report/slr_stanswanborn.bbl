@@ -122,6 +122,14 @@ J.~Kim, J.~E. Dietz, and E.~T. Matson, ``Modeling of a multi-robot energy
 A.~Barili, M.~Ceresa, and C.~Parisi, ``Energy-saving motion control for an
   autonomous mobile robot,'' p. 674–676, 1995.
 
+\bibitem{iso2011quality_attributes}
+\BIBentryALTinterwordspacing
+{ISO/IEC}, ``Iso/iec 25010: 2011 systems and software engineering--systems and
+  software quality requirements and evaluation (square)--system and software
+  quality models.'' [Online]. Available:
+  \url{https://www.iso.org/standard/35733.html}
+\BIBentrySTDinterwordspacing
+
 \bibitem{burgard2005multi_robot_exploration}
 W.~Burgard, M.~Moors, C.~Stachniss, and F.~Schneider, ``Coordinated multi-robot
   exploration,'' \emph{Transaction on Robotics}, p. 376–386, 2005.
@@ -166,14 +174,6 @@ S.~Kaitwanidvilai, V.~Chanarungruengkij, and P.~Konghuayrob, ``Remote sensing
 \bibitem{huh2013distributed_swarm}
 S.~Huh, S.~Hong, and J.~Lee, ``Energy-efficient distributed programming model
   for swarm robot,'' p. 300–305, 2013.
-
-\bibitem{iso2011quality_attributes}
-\BIBentryALTinterwordspacing
-{ISO/IEC}, ``Iso/iec 25010: 2011 systems and software engineering--systems and
-  software quality requirements and evaluation (square)--system and software
-  quality models.'' [Online]. Available:
-  \url{https://www.iso.org/standard/35733.html}
-\BIBentrySTDinterwordspacing
 
 \bibitem{kirtay2013humanoid_emotion}
 M.~Kırtay and E.~Oztop, ``Emergent emotion via neural computational energy

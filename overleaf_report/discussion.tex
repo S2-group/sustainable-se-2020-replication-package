@@ -1,26 +1,34 @@
 \section{Discussion}
 \label{sec:discussion}
-This section will motivate the expansion of research into the energy impact of running the robotics software itself.
-As described numerously in this literature study, this study aimed to give insights into the state-of-the-art of research
-on the energy efficiency impact of software aspects in robotics software.
-However, it became quickly apparant after the initial search that such studies were not numerous.
-Out of the 683 potentially relevant studies, 17 primary studies were selected based on the application of the selection criteria, 
-from which two studies would classify as a study into the energy efficiency impact of the robotics software itself.
+This literature study initially set out to research the state-of-the-art in terms of improving the
+energy efficiency of robotics software \textit{itself}.
+The fact that only two of the primary studies presented such research forms the basis of this discussion.
+
+\vspace{2mm}
 
 Their publication dates are 2017 \cite{hou2017novel_cloud_evaluation_model} and 2019 \cite{rahman2019cloud_robot_offloading}, 
-indicating the infancy of the field of study.
+indicating the infancy of the field of study. The importance of such research is significant, 
+considering the high emmisions and use of energy in the automation sector, as explained in section \ref{sec:intro}.
 
-The importance of such research is significant, considering the high emmisions and use of energy in the automation sector, as explained
-in section \ref{sec:intro}.
-This literature study has mainly studied papers improving the energy efficiency of physical inefficiencies, 
-be it the loss of traction (physical), the use of an FPGA\footnote{Field Programmable Gate Array} in combination with a neural network
-to improve the acceleration on-board (hardware) or the improvement of an inefficient path finder (software).
+\vspace{2mm}
 
-One could thus say with confidence that, while there is still much to gain from that field, the impact of software itself is mostly left out
-of the picture. 
+This literature study has mainly studied papers improving the energy efficiency of existing inefficiencies, 
+be it the loss of traction (physical) \cite{kim2016firefighting_robot}, 
+the use of an FPGA\footnote{Field Programmable Gate Array} in combination with a neural network
+to improve the acceleration on-board (hardware) \cite{cheng2018FPGA_image_recognition} 
+or the improvement of an inefficient path finder (software) \cite{mei2006mobile_exploration}.
+
+\vspace{2mm}
+
+One could thus say with confidence that, while there is still much to gain from that field of study,
+the impact of robotics software itself on energy efficiency is not yet sufficiently researched.
 As our society puts a growing effort towards a sustainable future, it warrants the expansion of research into this field of study.
 The biggest improvement in energy efficiency is going to be achieved by combining all the aforementioned state-of-the-art methods for improving 
 energy efficiency in section \ref{sec:results:rq2_state_of_the_art}, with software that is designed to be as energy efficient as possible.
-This is already partly possible because of the contributions of \cite{hou2017novel_cloud_evaluation_model}, however the fact that this is the only paper
-out of 17 primary studies, selected from 683 potentially relevant studies, which explicitly focuses on the identification of energy inefficient software, should warrant motivation for
+A good start has already been provided with a significant contribution; 
+a novel green evaluation method for cloud robotics \cite{hou2017novel_cloud_evaluation_model}.
+Which enables the identification of bottlenecks in robotics software in terms of energy efficiency, 
+and the prediction of the energy efficiency of a piece of software during development.
+However, the fact that this is the only study, out of 17 primary studies, selected from 683 potentially relevant studies, 
+which explicitly focuses on the identification of energy inefficient software, should warrant motivation for
 the expansion of such research.

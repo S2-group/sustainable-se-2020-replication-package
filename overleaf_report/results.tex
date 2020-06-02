@@ -55,7 +55,7 @@ It can also be observed that the more thoroughly peer reviewed, higher quality r
     \label{fig:pub_trends}
 \end{figure}
 
-\vspace{2mm}
+\vspace{5mm}
 
 \noindent\textbf{2. Energy Metric:} % Might be more sensible to change to Efficiency Metric
 % Various metrics used
@@ -63,7 +63,7 @@ It can also be observed that the more thoroughly peer reviewed, higher quality r
 % Joules / KiloJoules / NanoJoules most popular.
 % Most intersting: FPS / W etc.
 % Conclusion: Many different metrics, joules most popular, comparison difficult
-It can be observed that the energy metric used in the primary studies differs significantly.
+It can be observed that the energy metric used in the primary studies differ significantly.
 In the case that a simplified energy model is used, as explained in part 10 of this subsection, the energy metric is the most unique;
 units of distance traveled per units of energy \cite{mei2006mobile_exploration, patel2012exploration_strategy}.
 
@@ -75,19 +75,38 @@ The three most common, descriptive and comparable metrics observed are:
     \item $Joules / H$ or $Watts / H$ \cite{kim2016firefighting_robot,barili1995efficient_motion}
 \end{enumerate}
 
-\vspace{2mm}
+\vspace{5mm}
 
 \noindent\textbf{3. QA Trade-off:}
 % Various trade-offs mentioned.
 % Used in RQ 3.
-\todo{Write after RQ3}
+From the 17 primary studies, 15 present a technique to significantly improve energy efficiency.
+In each of these studies, the trade-off between the improved energy efficiency and some other attribute of the system is clear. 
+The other two studies present techniques to analyse the energy efficiency of a system, therefore these do not present any trade-off with any other
+attribute of a system.
 
 \vspace{2mm}
+
+When possible, each trade-off has been formally mapped to the \textit{Software Quality Attributes\cite{iso2011quality_attributes}}.
+However, considering robotics, there are attributes that do not exist in software.
+One such attribute has been found to trade-off with Energy Efficiency. 
+From the primary studies it can be observed that Energy Efficiency trades-off with the following attributes:
+
+\begin{itemize}
+    \item Performance Efficiency
+    \item Maintainability
+    \item Reliability
+    \item Mobility\footnote{Not an official software QA\cite{iso2011quality_attributes}, however a trade-off nonetheless.}
+\end{itemize}
+
+These trade-offs are further detailed; answering the third research question, in subsection RQ3 \ref{sec:results:rq3_trade_off}.
+
+\vspace{5mm}
 
 \noindent\textbf{4. Application Domain:}
 % Exploration / Service robots
 \begin{figure}[t]
-    \includegraphics[width=250pt]{figures/app_domains_freq.png}
+    \includegraphics[width=250pt]{figures/waffle_appdomain_freq.png}
     \caption{Application domains frequency}
     \label{fig:app_domains}
 \end{figure}
@@ -101,10 +120,9 @@ From this statistic one could thus reason that the combination of functional and
 The extension of the operational time of a mobile robot, as a result of the improved energy efficiency, 
 is far more functionally relevant than reducing the energy consumption of an industrial robot;
 considering the industrial robot has a continuous power supply, energy efficiency is not as functionally important as it will
-not deliver any functional improvement. 
-Rather, as specified in part 3 (QA Trade-off) of this subsection, it will most likely have some (negative) impact on performace.
+not deliver any functional improvement.
 
-\vspace{2mm}
+\vspace{5mm}
 
 \noindent\textbf{5. Identified Major Consumers:}
 % Software inefficiencies
@@ -116,22 +134,18 @@ However, a common theme can be identified:
 
 \vspace{2mm}
 
-No matter the application domain, any identified inefficiency is always traced back to a hardware inefficiency, 
-which is solved by improving software.
+No matter the application domain, any identified inefficiency is always traced back to a (physical) \textit{hardware} inefficiency, 
+which is solved by improving \textit{software}.
 
 \vspace{2mm}
 
-Considering robots use software to control their physical hardware, and the fact that robots exist to satisfy some physical need, this makes sense.
-From all primary studies, only one identifies solely software itself as the main consumer \cite{hou2017novel_cloud_evaluation_model}.
+Considering robots use software to control their hardware, and the fact that robots exist to satisfy some physical need, this is logical.
+From all primary studies, only one solely identifies software itself as the main consumer \cite{hou2017novel_cloud_evaluation_model}.
 It presents a novel cloud evaluation model; which evaluates the energy efficiency of the software itself.
-Using the model, the software itself; its execution, can be made more efficient.
-
-\vspace{2mm}
-
+Using the model, the execution of the software itself can be made more efficient. 
 The fact that this is the only study addressing this aspect of robotics software, forms the basis of the discussion in section \ref{sec:discussion}.
 
-
-\vspace{2mm}
+\vspace{5mm}
 
 \noindent\textbf{6. Identified Improving Software Aspect:}
 % Mostly solving hardware with software
@@ -139,62 +153,56 @@ Among the primary studies, all inefficiencies are solved by improving the roboti
 as this literature study explicitly targets such studies.
 As the presented improvements are very implementation specific, they are hardly comparable.
 However, a common theme among the improvements can be identified:
-Each improvement solves a hardware inefficiency using software; however, each improvement does so to various degree.
-Two examples from the primary studies:
+Each improvement solves a hardware inefficiency using software; however, each improvement does so to various degree. 
+These aspects are processed in the contributions of each primary study, 
+as stated in the next part of this subsection (\textit{7. Major Contribution}).
 
-\begin{itemize}
-    \item Improving the path planning algorithm (\textit{software}) to limit inefficient use of \textit{hardware} as the path
-    is more energy efficient (shorter, less stops and/or turns, etc.) (\textbf{low degree of improved hardware ineffiency}) \cite{mei2006mobile_exploration}.
-    \item Introducing an algorithm (\textit{software}) which off-loads computations to a more energy-optimized cloud infrastructure (\textit{hardware}) 
-    (\textbf{high degree of improved hardware inefficiency}) \cite{rahman2019cloud_robot_offloading}.
-\end{itemize}
-
-\vspace{2mm}
+\newpage
 
 \noindent\textbf{7. Major Contribution:}
 % For example the entire system, integrating the software aspects to improve inefficiency.
 For each of the primary studies the major contribution is the implementation and evaluation of the identified software aspect that would
-improve the inefficiency. 
+improve the energy inefficiency. 
 This column can therefore be seen as an extension of the previous column (\textit{6. Identified Improving Software Aspect}).
+These contributions are further detailed; answering the second research question, in subsection RQ2 \ref{sec:results:rq2_state_of_the_art}.
 
-\vspace{2mm}
+\vspace{5mm}
 
 \noindent\textbf{8. Experiment:}
 % Experiment performed most common: simulation, why?
 \begin{figure}
-    \includegraphics[width=250pt]{figures/experiment_distr.png}
+    \includegraphics[width=250pt]{figures/waffle_exp_freq.png}
     \caption{Experiment distribution}
     \label{fig:experiment_distr}
 \end{figure}
 Most studies performed an experiment, only one primary study did not.
-From figure \ref{fig:experiment_distr}, it can be observed that most studies (9) perform an experiment in the form of a simulation, 
+From figure \ref{fig:experiment_distr}, it can be observed that most studies (53\%) perform an experiment in the form of a simulation, 
 this is without counting the combination of real-world and simulation.
-considering those would bump the number of primary studies using a simulation as experiment to 12, $\pm 70\%$ of the primary studies.
-Four primary studies performed a real-world experiment.
-Three studies performed a combination of real-world and simulated experiments.
+considering those would bump the percentage of primary studies using a simulation as experiment to $\pm 70\%$ of the primary studies.
+24\% of the primary studies performed a real-world experiment and 18\% performed a combination of real-world and simulated experiments.
+Only 6\% performed no experiment, which amounts to only one study.
+
+\vspace{2mm}
 
 For understanding the experiments, especially the simulations, the energy model used is of high value; this is given in appendix \ref{appendix:data_sheet_2}.
 
-\vspace{2mm}
+\vspace{5mm}
 
 \noindent\textbf{9. Comparison Against State-Of-The-Art:}
 % Mostly yes, important for validity!
 To verify the validity of the claims presented in the primary studies, the comparison against the state-of-the-art is important.
 In 14 of the 17 primary studies ($\pm 80\%$) a comparison was made.
 From the three studies that had no comparison, one was a paper presenting a novel cloud evaluation model \cite{hou2017novel_cloud_evaluation_model}
-which has no state-of-the-art to compare to as it presents something completely new.
-
-\vspace{2mm}
-
+which has no state-of-the-art to compare to as it presents something completely new. 
 It is therefore safe to say that 15 of the 17 primary studies ($\pm 90\%$) uphold the comparison.
 
 \vspace{2mm}
 
-This is of importance as this literature study's validity is dependent upon the validity of the literature it is based on.
+\noindent This is of importance as this literature study's validity is dependent upon the validity of the literature it is based on.
 The threats to the validity of this literature study, and what has been done to mitigate these threats,
 is further detailed in section \ref{sec:threats}.
 
-\vspace{2mm}
+\vspace{5mm}
 
 \noindent\textbf{10. Energy Model:}
 % Interesting for future research / comparison between the relative studies
@@ -233,9 +241,7 @@ Therefore, in studies where this is of importance, only a real-world experiment 
 
 In this section the results obtained when analyzing the publication trends on energy efficiency in robotics software are presented.
 Understanding the publication trends in the field of study is essential for interpreting the results of this literature study as it gives
-an idea of the maturity of the field.
-
-From these findings, as stated in part 1. of subsection \ref{sec:results:insights}, we can conclude that the maturity of the field, considering the number of publications relative to their publication dates, 
+an idea of the maturity of the field. From these findings, as stated in part 1. of subsection \ref{sec:results:insights}, we can conclude that the maturity of the field, considering the number of publications relative to their publication dates, 
 is rather limited the further back we go in time. It is important to take this into account for both the findings of this literature study, presented in the following subsections 
 \ref{sec:results:rq2_state_of_the_art} and \ref{sec:results:rq3_trade_off}, and for the discussion as presented in section \ref{sec:discussion}.
 Considering the aforementioned difficulty with the initial goal of this literature study; from the publication trends we can see that this 
@@ -250,11 +256,14 @@ is probably the case because of a rather immature field of study.
 \item The field can still be considerd immature as publications only recently attained in numbers.
 \end{enumerate}}}
 
+\newpage
 % ========================================================================= RQ 2 =========================================================================
 
 \subsection{Results - state-of-the-art (RQ2)}
 \label{sec:results:rq2_state_of_the_art}
 In this section the state-of-the-art in analyzing and improving energy efficiency in robotics software is presented as found from studying the primary studies.
+
+\vspace{5mm}
 
 \noindent\textbf{1. Analyzing:}
 The novel cloud evaluation method \cite{hou2017novel_cloud_evaluation_model}, introduces a whole new paradigm in robotics software.
@@ -282,18 +291,18 @@ inefficiencies using software solutions, like an improved algorithm.
 
 As stated before, this literature study initially set out to research the state-of-the-art in terms of improving the
 energy efficiency of robotics software \textit{itself}.
-The fact that only two of the primary studies presented such research forms the basis of the discussion in section \ref{sec:discussion}, 
-this section will therefore detail what has been found by studying the primary studies in the context of improving energy efficiency 
+The fact that only two of the primary studies presented such research forms the basis of the discussion in section \ref{sec:discussion}. 
+This section will therefore detail what has been found by studying the primary studies in the context of improving energy efficiency 
 by \textit{using} robotics software.
 
 \vspace{2mm}
 
 Each primary study presented an evaluated software solution that improves energy efficiency.
-The prime techniques extracted from the primary studies consist of:
+The techniques extracted from the primary studies consist of:
 
 \vspace{2mm}
 
-- The technique to off-load computations to other, nearby, robots that are more 'available' 
+\textbf{1.} The technique to off-load computations to other, nearby, robots that are more 'available' 
 (i.e. robots that have more resources available for such computations relative to the current one.), or to off-load it to the cloud.
 The concept here is that the cloud infrastructure (hardware itself, hardware utilization, etc) is more energy-optimized compared to the
 hardware used on the robots themselves, and will thus result in an improved energy efficiency.
@@ -301,7 +310,7 @@ Even though some energy is wasted in the transmission of data, the overall energ
     
 \vspace{2mm}
 
-- The technique to improve the path finding for mobile robot exploration. 
+\textbf{2.} The technique to improve the path finding for mobile robot exploration. 
 Many existing studies select the next target based on the utilities and costs of the frontier cells 
 \cite{burgard2005multi_robot_exploration, simmons2000multi_robot_exploration,zlot2002multi_robot_exploration} 
 However, study \cite{mei2006mobile_exploration} proves that if the next target is selected based on the orientation of the robot, 
@@ -310,7 +319,7 @@ efficiency.
     
 \vspace{2mm}
 
-- The technique to limit stops, directional changes (turns) and the degree to which the direction is changed as much as possible 
+\textbf{3.} The technique to limit stops, directional changes (turns) and the degree to which the direction is changed as much as possible 
 significantly improves energy efficiency. By the very nature of this technique, an improved obstacle detection and avoidance algorithm
 is needed for mobile robotic systems. This technique is widespread over the primary studies, and presented and evaluated in 
 \cite{xie2018mecanum_wheel, kim2016firefighting_robot, benkrid2016multi_robot_exploration, barili1995efficient_motion, 
@@ -318,33 +327,38 @@ jia2004grid_strategy_exploration, mei2005energy_consumers_identified, patel2012e
     
 \vspace{2mm}
 
-- The technique to limit motion at high speeds, with numerous moments of acceleration and decelleration
+\textbf{4.} The technique to limit motion at high speeds, with numerous moments of acceleration and decelleration
 \cite{wingstrom2013robot_cell_scheduling}.
     
 \vspace{2mm}
 
-- The technique to prevent idle time as much as possible \cite{gurel2019industrial_robot_scheduling, 
+\textbf{5.} The technique to prevent idle time as much as possible \cite{gurel2019industrial_robot_scheduling, 
 kaitwanidvilai2020industrial_robot_cycle_time, wingstrom2013robot_cell_scheduling}.
     
 \vspace{2mm}
 
-- The technique to limit data transmission by preventing the transmission of duplicate data in distributed robotic systems \cite{huh2013distributed_swarm}.
+\textbf{6.} The technique to limit data transmission by preventing the transmission of duplicate data in distributed robotic systems \cite{huh2013distributed_swarm}.
 
 \vspace{2mm}
 
-- The technique to limit physical inefficiencies (e.g. loss of traction because of payload weight), if possible, by adding more robots to the system which would cause the overall
+\textbf{7.} The technique to limit physical inefficiencies (e.g. loss of traction because of payload weight), if possible, by adding more robots to the system which would cause the overall
 energy consumption to go down as the physical inefficiency (now solved) was consuming more energy than the addition of the subrobots \cite{kim2016firefighting_robot}.
     
 \vspace{2mm}
 
-- The technique to use more advanced hardware (i.e. more energy-optimized, desktop grade, hardware instead of custom robotic hardware) 
+\textbf{8.} The technique to use more advanced hardware (i.e. more energy-optimized, desktop grade, hardware instead of custom robotic hardware) 
 on robots in combination with energy-optimized software to improve energy efficiency significantly \cite{cheng2018FPGA_image_recognition}.
     
 \vspace{2mm}
 
-- The technique that sacrificing some energy on finding a better position for the transmission of data over a wireless connection
+\textbf{9.} The technique that sacrificing some energy on finding a better position for the transmission of data over a wireless connection
 (a higher channel gain) will ultimately improve energy efficiency as less time is spend and wasted on (re)transmitting 
 data over a bad wireless connection \cite{licea2013wireless_comms}.
+
+\vspace{2mm}
+
+\textbf{10.} The technique to be able to predict the energy cost of any stimuli and reject said stimuli if it is predicted to exceed some energy threshold 
+\cite{kirtay2013humanoid_emotion}.
 
 \vspace{5mm}
 
@@ -358,68 +372,79 @@ data over a bad wireless connection \cite{licea2013wireless_comms}.
         \item Improved path finding, obstacle avoidance etc.
         \item Limit physical inefficiencies, idle time, acceleration, decelleration, stops, turns, directional changes and the extent of the directional change.
         \item The use of more energy-optimized hardware on robotics themselves.
-        \item Sacrificing some energy to achieve higher efficiency, f.e. finding a better location with better signal for data transmission.
+        \item Sacrificing some energy to achieve higher efficiency, e.g. finding a better location with better signal for data transmission.
+        \item Using elaborate software to be able to predict the energy cost of stimuli and reject if necessary.
     \end{enumerate}
 \end{enumerate}}}
 
 % ========================================================================= RQ 3 =========================================================================
 
-\subsection{Results - energy QA trade-off (RQ3)}
+\subsection{Results - QA trade-off (RQ3)}
 \label{sec:results:rq3_trade_off}
-From the primary studies it became quickly apparent that no significant improvement of energy efficiency came without the cost
-to some other attribute. These trade-offs have been mapped to 
-\textit{system Quality Attributes\cite{iso2011quality_attributes}} and will be presented
-in this section.
+From the primary studies, it can be observed that most techniques that significantly improve energy efficiency come with a cost to some other attribute of the system.
+However, not all techniques trade-off with the same attributes, some even improve two QAs but trade-off with another.
 
-This section aims to give insight into the various costs that have been associated with improving energy efficiency.
-Any reader can judge if any QA trade-off is manageable in the context of their own system, when applying the paradigms
-described in subsection \ref{sec:results:rq2_state_of_the_art}. 
-The QA's that trade-off with improving energy efficiency are further detailed and related to findings from the primary studies below.
+As stated in part 3 of the subsection \ref{sec:results:insights}, the attributes have been mapped to \textit{Software Quality Attributes\cite{iso2011quality_attributes}}
+if possible.
 
-\begin{figure}
-    \includegraphics[width=250pt]{figures/trade_off_freq.png}
-    \caption{QA Trade-off with Efficiency frequency distribution}
+\vspace{2mm}
+
+In figure \ref{fig:trade_off_freq} it can be observed that the \textbf{Performance Efficiency} is the most common QA trade-off with 57\% occurrence in the primary studies.
+
+\vspace{2mm}
+
+- \textbf{Performance Efficiency} trades-off with Energy Effiency in any case where physical or software inefficiencies cannot be improved or do not exist. 
+Techniques that are similar to techniques \textbf{3, 4, 5 and 9} from subsection \ref{sec:results:rq2_state_of_the_art}, 
+will inherently decrease Performance Efficiency as it is the only way such techniques improve Energy Efficiency.
+
+\vspace{2mm}
+
+It should be noted that some techniques (\textbf{1, 2, 6, 7 and 8}) both improve the Performance Efficiency and Energy Efficiency. 
+It has been observed that this is often the case using techniques that will improve a given physical or software inefficiency. 
+For example, technique \textbf{2} improves the path planning algorithm, guaranteeing \textit{no path overlap} during area exploration. 
+It has been proven that this not only improves Energy Efficiency, but also allows the robot to explore the unknown area faster; 
+thus improving Performance Efficiency \cite{mei2006mobile_exploration}.
+
+\vspace{2mm}
+
+\begin{figure}[t]
+    \includegraphics[width=250pt]{figures/waffle_tradeoff_freq.png}
+    \caption{QA Trade-off frequency distribution}
     \label{fig:trade_off_freq}
 \end{figure}
 
-\vspace{5mm}
+- \textbf{Maintainability} trades-off with Energy Efficiency in any case where improving Energy Efficiency requires more elaborate and complex software and/or hardware. 
+This is the case for each of the observed techniques, to varying degree, as presented in subsection \ref{sec:results:rq2_state_of_the_art}; \textbf{1 - 10}.
 
-It can be observed from figure \ref{fig:trade_off_freq} that the most common QA to trade-off with Efficiency is \textbf{Timeliness}.
-This is to be expected as one can reason with common sense that when, f.e. speed is decreased to increase Efficiency, Timeliness will decrease.
+\vspace{2mm}
 
-Under Timeliness one could also understand the notion of \textit{Performance}, but considering that this is not an official
-system's Quality Attribute, it can be explained as Timeliness.
+- \textbf{Reliability} trades-off with Energy Efficiency in any case where improving Energy Efficiency requires the system to 
+stop operating for some criteria, like using techniques similar to \textbf{10}, or where the chance of operational failure is increased, 
+like increasing the possible points of failure during operation using techniques similar to \textbf{1, 7 and 9}. 
 
-- \textbf{Affordability} trades-off with Efficiency as improving Efficiency can require an increase in cost for the developer.
-For example, the addition of subrobots to reduce the loss of traction by the weight of the payload.
+\vspace{2mm}
 
-- \textbf{Availability} trades-off with Efficiency as improving Efficiency can require the robot to reject stimuli when it predicts
-that the stimuli will cost too much or waste energy \cite{kirtay2013humanoid_emotion}.
+- \textbf{Mobility} trades-off with Energy Efficiency in any case where improving Energy Efficiency requires the system to reduce its responsiveness to 
+the environment it exists in. This is the case for techniques where the robot has to limit its movement, like using techniques similar to \textbf{3 and 4}.
 
-- \textbf{Mobility} trades-off with Efficiency as improving Efficiency can require the robot to limit stops, turns, directional changes and the degree 
-to which the direction is changed as much as possible. This significantly reduces the Mobility of the robot.
+\vspace{2mm}
 
-- \textbf{Understandability} trades-off with Efficiency as improving Efficiency can require the robot to be more complicated in terms of hardware
-and/or software. 
-The added complexity; like an improved, more complex, algorithm which improves energy efficiency, can reduce the Understandability of the system.
-
-- \textbf{Simplicity} trades-off with Efficiency as improving Efficiency can require the system to be expanded in a trivial manner, thus not
-reducing the Understandability of the system but nonetheless making it more complex. Like adding the aforementioned subrobots to the system.
-
-- \textbf{Timeliness} trades-off with Efficiency as improving Efficiency can require the robot to take the longer route instead of the shortest route
-as the shortest route might contain more stops and turns, which is to be limited as much as possible.
-
-\vspace{5mm}
-
-Besides the fact that certain QA's need to be traded-off in order to improve energy efficiency, the extent to which this is required 
+Besides the fact that certain QAs need to be traded-off in order to improve energy efficiency, the extent to which this is required 
 matters just as much, if not more.
-For each system, the hit to the traded-off QA and the improvement of Efficiency will be significantly different.
+For each system, the hit to the traded-off QA and the improvement of Energy Efficiency will be significantly different.
 Thus, an indication of expected percentages cannot be given.
-However, with common sense it can be reasoned that a disproportional hit to the traded-off QA relative to the increase in Efficiency might not be worthwile.
+However, one could reason that a disproportional hit to the traded-off QA, relative to the increase in Energy Efficiency might not be worthwile.
 
-Study \cite{kaitwanidvilai2020industrial_robot_cycle_time} for example states: "This method reduces energy consumption from 8155.20 to 7148.6 J, 
-a decrease of 12.3\%.  On the other hand, the total moving time is increased by 71.8\% from 6.60 to 11.34 s". 
-In case the system in question can suffer a 71.8\% reduction in Timeliness for a 12.3\% increase in Efficiency, it might be worthwile.
+\vspace{2mm}
+
+Study \cite{kaitwanidvilai2020industrial_robot_cycle_time} for example states: 
+
+\noindent\textit{"This method reduces energy consumption from 8155.20 to 7148.6 J, 
+a decrease of 12.3\%. On the other hand, the total moving time is increased by 71.8\% from 6.60 to 11.34 s".}
+
+\vspace{2mm}
+
+In case the system in question can suffer a 71.8\% reduction in Performance Efficiency for a 12.3\% increase in Energy Efficiency, it might be worthwile.
 However, it can be considered a good example of a trade-off which might not be worthwile for most systems, let alone time-critical systems.
 
 \vspace{5mm}
@@ -427,7 +452,10 @@ However, it can be considered a good example of a trade-off which might not be w
 \noindent\fcolorbox{black}[HTML]{FFFFFF}{\parbox{0.47\textwidth}{%
 \noindent \textbf{Main Findings.}
 \begin{enumerate}[nolistsep]
-\item The most common QA trade-off relative to Efficiency is \textbf{Timeliness}.
-\item Some studies present QA trade-offs which are easily worthwile, like the reduction of Simplicity in favor of an increase in Efficiency.
-\item Some QA trade-offs are not worthwhile for most robotic systems, like the reported 12.3\% increase in Efficiency for a 71.8\% decrease in Timeliness.
+\item The most common QA trade-off in order to improve Energy Efficiency is \textbf{Performance Efficiency}.
+\item Some techniques will improve both Energy Efficiency and \textbf{Performance Efficiency} at the same time, 
+these techniques mostly consist of techniques solving physical and/or software inefficiencies.
+Like techniques similar to \textbf{1, 2, 6, 7 and 8}.
+\item Each QA trade-off will have a varying degree of impact for each specific system. 
+It is up to the reader to decide if such trade-offs are worth it for their system.
 \end{enumerate}}}
