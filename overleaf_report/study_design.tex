@@ -6,11 +6,13 @@ well-accepted methodological guidelines on secondary studies
 
 This literature study targets multiple research questions. 
 These questions will be given and motivated in subsection \ref{sec:study_design:research_questions}.
-Then the search and selection of papers adhering to the inclusion and exclusion criteria began.
+Then the search and selection of papers satisfying all of the inclusion and none of the exclusion criteria began.
 This process, and the criteria, are given in subsection \ref{sec:study_design:search_selection}.
-After the selection was made final, hereon after called the \textit{primary studies}, the summarization and categorization process began. 
-This process is the most important step for writing the literature study; the studies are made comparable by finding the commonalities and patterns in the field of study. 
-This process is further explained in subsection \ref{sec:study_design:summ_categor}.
+After the selection was made final, hereon after called the \textit{primary studies}, 
+the data extraction process began; explained in subsection \ref{sec:study_design:data_extract}. 
+After data extraction, the data synthesis process began; this process is the most important step for writing the literature study. 
+The studies are made comparable by finding the commonalities and patterns in the field of study. 
+This process is further explained in subsection \ref{sec:study_design:data_synth}.
 
 
 \subsection{Research Questions}
@@ -41,17 +43,18 @@ This research question aims to answer what the state-of-the-art is for achieving
 \vspace{5mm}
 
 This research question aims to give insights into what Quality Attributes have been identified to trade-off with energy efficiency. 
-It is valuable for researchers and practitioners to know that if one wants to increase energy efficiency, one can expect a decrease of some other attribute.
+It is valuable for researchers and practitioners to know that if one wants to improve energy efficiency, 
+one can expect a decrease of some other attribute.
 
 \subsection{Search and Selection}
 \label{sec:study_design:search_selection}
 \begin{figure}
     \centering
     \includegraphics[width=0.5\textwidth]{figures/selection_process_var2.png}
-    \caption{The Search and Selection process}
+    \caption{The search and selection process}
     \label{fig:search_selec_process}
 \end{figure}
-
+ 
 The \textit{study design} is agreed and approved upon before starting the search and selection process. 
 This is meant to prevent, as much as possible, any personal bias during search and selection, as the \textit{search string} and \textit{selection criteria} are already finalized.
 This, and more threats to the validity of this report are detailed in section \ref{sec:threats}.
@@ -73,13 +76,13 @@ It has been used as a data source for the following main reasons:
 \begin{figure}
     \centering
     \textit{"(intitle:robot) AND (intitle:power OR intitle:green OR intitle:energy OR intitle:battery) AND software"}
-    \caption{Search String}
+    \caption{Search string}
     \label{fig:search_string}
 \end{figure}
 
 The results were retrieved using the \textbf{search string} as given in figure \ref{fig:search_string}. 
 The search string is kept as general as possible so that potentially relevant studies that would be able to make it 
-to the primary studies but might not match exactly, are not accidentally filtered out by the automatic search.
+to the primary studies, but might not match exactly, are not accidentally filtered out by the automatic search.
 
 The search string consists of three main components, each is given and motivated below:
 \begin{enumerate}
@@ -94,7 +97,7 @@ The search string consists of three main components, each is given and motivated
     These concepts are deliberately logically seperated with an \textbf{OR} operator to prevent the exclusion of any studies that only focus on a subset.
 
     \item \textit{software} \newline
-    Considering this literature study explicitly focuses on \textbf{software};
+    Considering this literature study explicitly focuses on \textbf{robotics software};
     the inclusion of software related papers is warranted.
     This is the only concept that is not explicitly limited to the \textbf{title}, as it is a broad, general term which might not always be mentioned
     explicitly in the title but does get mentioned in the abstract or keywords.
@@ -102,16 +105,18 @@ The search string consists of three main components, each is given and motivated
 \end{enumerate}
 The number of results at the time of performing the initial search were \textbf{683} potentially relevant studies.
 
+\vspace{5mm}
+
 \noindent\textbf{2. Filter Types and Duplicates}
 During this step, all publication types that are not peer-reviewed by nature are filtered out. 
 The potentially relevant studies that resulted from the initial search were thus automatically filtered to be only of any of these types: 
 \textit{Journal Articles, Conference Papers, Book Sections}.
-By filtering these types, the total number of potentially relevant studies went down to \textbf{615}. 
+By filtering these types, the total number of potentially relevant studies decreased to \textbf{615}. 
 Then, the filtered collection was filtered automatically once more on 
-syntactic (i.e. papers which are exactly the same) duplicates. 
-Semantic (i.e. different papers about the same approach) duplicates were left to be filtered out manually during the data extraction phase, as explained in
-\ref{sec:study_design:summ_categor}, in order to prevent unintentional removal. 
-However, the approach as followed by this literature study is given for both below:
+syntactic duplicates (i.e. papers which are exactly the same). 
+Semantic duplicates (i.e. different papers about the same approach) were left to be filtered out manually during the data extraction phase, 
+as explained in part 5 of this subsection, in order to prevent unintentional automatic removal. 
+The approach for duplicates, as followed by this literature study, is given below:
 
 \vspace{1mm}
 
@@ -123,7 +128,7 @@ However, the approach as followed by this literature study is given for both bel
     \item[\textit{Semantic}] In the case of a semantic duplicate, meaning a paper was published in more than one instance 
     (for example, if a conference paper was extended to a journal version), only one instance has been counted as a primary study. 
     In those cases the journal version of the study has been preferred, as it is supposed to be the most complete; nevertheless, 
-    both versions have been used in the data extraction phase and in the analysis of the publication trends (RQ1, see section \ref{sec:results}).
+    both versions have been used in the data extraction phase and in the analysis of the publication trends (RQ1, see section \ref{sec:results:rq1_pub_trends}).
 
 \end{enumerate}
 After the duplicates were removed the total number of potentially relevant studies decreased to \textbf{610}.
@@ -132,7 +137,8 @@ After the duplicates were removed the total number of potentially relevant studi
 
 \noindent\textbf{3. Application of Selection Criteria:}
 During this step the \textbf{610} potentially relevant studies are filtered by applying the selection criteria. 
-The study is added to the set of \textit{primary studies} in case it satisfies \textbf{all} of the inclusion criteria (\textit{i1-i5}) and \textbf{none} of the exclusion criteria (\textit{e1-e5}). 
+The study is added to the set of \textit{primary studies} in case it satisfies \textbf{all} of the inclusion criteria (\textit{i1-i6}) 
+and \textbf{none} of the exclusion criteria (\textit{e1-e5}). 
 These criteria consist of:
 \begin{itemize}
     \item[i1] Studies focussing on robotics.
@@ -145,7 +151,7 @@ These criteria consist of:
 	\item[e1] Studies that, while focussing on energy efficiency, do not explicitly deal with any software aspect.
     \item[e2] Studies where energy efficiency is only used as an example.
     \item[e3] Secondary or Tertiary studies (literature reviews, theses etc).
-    \item[e4] Studies that are not in the form of a Journal Article, Conference Paper, Book or Book Section.
+    \item[e4] Studies that are not in the form of a Journal Article, Conference Paper or Book Section.
     \item[e5] Studies not available as full-text.
 \end{itemize}
 
@@ -153,7 +159,7 @@ The application of the selection criteria was done manually by following the ste
 Each step was performed to see if any selection criteria could be decided based on the information gained by it. 
 If a step decided one of the \textit{exclusion criteria} the next steps were not followed for that particular study, 
 as it already warrants rejection. 
-The following steps were followed for each of the \textbf{610} potentially relevant studies:
+The following steps were performed for each of the \textbf{610} potentially relevant studies:
 \begin{itemize}
 	\item[S1] Read the \textit{Title}.
 	\item[S2] \textit{Download} the study.
@@ -186,13 +192,13 @@ a total of \textbf{15} papers were identified to satisfy \textbf{all} of the \te
                 RQ1 \\
 
             2 &
-                Energy Metric & 
+                Metric & 
                 \textit{FPS / W (Watt)} & 
                 RQ2 \\
 
             3 &
                 QA Trade-off & 
-                \textit{Performance vs Efficiency} & 
+                \textit{Performance Efficiency vs Energy Efficiency} & 
                 RQ3 \\
                 
             4 &
@@ -235,23 +241,25 @@ a total of \textbf{15} papers were identified to satisfy \textbf{all} of the \te
 \end{table*}
 In this phase the automatic search was complemented with recursive \textit{backward} and \textit{forward} snowballing \cite{wohlin2014snowballing}.
 During the \textit{backward} snowballing, all references of each \textit{considered study} were added to the potentially relevant studies. 
-After each reference from each considered study was added, the steps for applying the selection criteria, as given above, were once more followed. 
+After all references from each considered study were added the steps for applying the selection criteria, as given above, were once more followed. 
 After completing this iteration, each newly considered study was also used in the recursive backward snowballing process.
 
 Following the backward snowballing, \textit{forward} snowballing was used. 
-In this process each study that cites each considered study is added to the potentially relevant studies, hereafter each step for applying the selection criteria was once more followed, and the newly considered studies were recursively used in the forward snowballing process.
+In this process each study that cites each considered study is added to the potentially relevant studies, 
+hereafter each step for applying the selection criteria was once more followed, 
+and the newly considered studies were recursively used in the forward snowballing process.
 
 \vspace{5mm}
 
-On completion of the snowballing process, the set of considered studies grew to \textbf{21} studies. These studies now form the \textit{primary studies} set.
+On completion of the snowballing process, the set of considered studies grew to \textbf{21} studies.
+These studies now form the set of \textit{primary studies}.
 
 \vspace{5mm}
 
 \noindent\textbf{5. Exclusion during Data Extraction:}
 Papers that made it to the collection of primary studies can still be removed from the set during the data extraction phase if they 
-are found to satisfy one of the \textit{exclusion criteria} while reading the study full-text.
-
-What the data extraction phase consists of, is explained in section \ref{sec:study_design:data_extract}.
+are found to satisfy one of the \textit{exclusion criteria} while reading the study full-text. 
+What the data extraction phase consists of, is explained in the next subsection \ref{sec:study_design:data_extract}.
 
 For this literature study, a total of \textbf{4} papers have been excluded during data extraction. 
 
