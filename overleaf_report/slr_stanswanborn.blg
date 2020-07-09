@@ -1,0 +1,82 @@
+This is BibTeX, Version 0.99d (MiKTeX 2.9.7420 64-bit)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: slr_stanswanborn.aux
+The style file: IEEEtran.bst
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: references.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in mei2005energy_consumers_identified
+Warning--empty journal in aylett2002machines_to_life
+Warning--empty journal in US2018energy_administration
+Warning--empty journal in IFR2010executive_summary
+Warning--empty journal in engelmann2009energy_efficient_factories
+Warning--empty journal in petersen2015guidelines_systematic
+Warning--empty journal in kitchenham2013systematic_review_guidelines
+Warning--empty journal in wohlin2012experimentation
+Warning--empty journal in rahman2019cloud_robot_offloading
+Warning--empty journal in hou2017novel_cloud_evaluation_model
+Warning--empty journal in mei2006mobile_exploration
+Warning--empty journal in patel2012exploration_strategy
+Warning--empty journal in cheng2018FPGA_image_recognition
+Warning--empty journal in licea2013wireless_comms
+Warning--empty journal in kim2016firefighting_robot
+Warning--empty journal in barili1995efficient_motion
+Warning--empty journal in iso2011quality_attributes
+Warning--empty year in iso2011quality_attributes
+Warning--empty journal in simmons2000multi_robot_exploration
+Warning--empty journal in jia2004grid_strategy_exploration
+Warning--empty journal in wingstrom2013robot_cell_scheduling
+Warning--empty journal in gurel2019industrial_robot_scheduling
+Warning--empty journal in kaitwanidvilai2020industrial_robot_cycle_time
+Warning--empty journal in huh2013distributed_swarm
+Warning--empty journal in kirtay2013humanoid_emotion
+
+Done.
+You've used 34 entries,
+            4087 wiz_defined-function locations,
+            979 strings with 13410 characters,
+and the built_in function-call counts, 19595 in all, are:
+= -- 1635
+> -- 507
+< -- 62
++ -- 255
+- -- 110
+* -- 809
+:= -- 2944
+add.period$ -- 68
+call.type$ -- 34
+change.case$ -- 33
+chr.to.int$ -- 123
+cite$ -- 59
+duplicate$ -- 1644
+empty$ -- 1542
+format.name$ -- 136
+if$ -- 4599
+int.to.chr$ -- 0
+int.to.str$ -- 34
+missing$ -- 267
+newline$ -- 131
+num.names$ -- 34
+pop$ -- 761
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 1615
+stack$ -- 0
+substring$ -- 571
+swap$ -- 1133
+text.length$ -- 21
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 34
+warning$ -- 25
+while$ -- 67
+width$ -- 36
+write$ -- 298
+(There were 25 warnings)

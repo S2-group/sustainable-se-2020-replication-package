@@ -12,8 +12,8 @@ Out of all 683 potentially relevant studies, only two studies have been found th
 
 One study \cite{rahman2019cloud_robot_offloading} provides proof that a software architectural change; 
 from on-board calculations to off-loading to more available robots or the cloud, actually impacts energy efficiency positively.
-Another study \cite{hou2017novel_cloud_evaluation_model} presents a novel evaluation method for cloud robotics, estimating energy efficiency.
-The method allows for identifying those robotics software aspects that consume relatively more energy. 
+Another study \cite{hou2017novel_cloud_evaluation_model} presents a novel evaluation technique for cloud robotics, estimating energy efficiency.
+The technique allows for identifying those robotics software aspects that consume relatively more energy. 
 It can also be used to predict the energy consumption of a specific piece of robotics software, allowing it to be used during software development, 
 to create more energy efficient software from the moment it is designed.
 
@@ -70,7 +70,7 @@ units of distance traveled per units of energy \cite{mei2006mobile_exploration, 
 All other metrics given use a study specific metric in relation to either; energy, \textbf{Joules} (\textit{J}) or power, \textbf{Watts} (\textit{W}).
 The three most common, descriptive and comparable metrics observed are:
 \begin{enumerate}
-    \item $FPS / Watt$ \cite{cheng2018FPGA_image_recognition}
+    \item $FPS\footnote{Frame rate (expressed in frames per second or FPS)} / Watt$ \cite{cheng2018FPGA_image_recognition}
     \item $Joules / Meter$ \cite{licea2013wireless_comms}
     \item $Joules / H$ or $Watts / H$ \cite{kim2016firefighting_robot,barili1995efficient_motion}
 \end{enumerate}
@@ -143,8 +143,8 @@ which is solved by improving \textit{software}.
 
 Considering robots use software to control their hardware, and the fact that robots exist to satisfy some physical need, this is logical.
 From all primary studies, only one solely identifies software itself as the main consumer \cite{hou2017novel_cloud_evaluation_model}.
-It presents a novel cloud evaluation model; which evaluates the energy efficiency of the software itself.
-Using the model, the execution of the software itself can be made more efficient. 
+It presents a novel cloud evaluation method; which evaluates the energy efficiency of the software itself.
+Using the method, the execution of the software itself can be made more efficient. 
 The fact that this is the only study addressing this aspect of robotics software, forms the basis of the discussion in section \ref{sec:discussion}.
 
 \vspace{5mm}
@@ -193,7 +193,7 @@ For understanding the experiments, especially the simulations, the energy model 
 % Mostly yes, important for validity!
 To verify the validity of the claims presented in the primary studies, the comparison against the state-of-the-art is important.
 In 14 of the 17 primary studies ($\pm 80\%$) a comparison was made.
-From the three studies that had no comparison, one was a paper presenting a novel cloud evaluation model \cite{hou2017novel_cloud_evaluation_model}
+From the three studies that had no comparison, one was a paper presenting a novel cloud evaluation method \cite{hou2017novel_cloud_evaluation_model}
 which has no state-of-the-art to compare to as it presents something completely new. 
 It is therefore safe to say that 15 of the 17 primary studies ($\pm 90\%$) uphold the comparison.
 
@@ -292,7 +292,7 @@ in the form of a simulation, a real-world experiment or a combination thereof.
 \vspace{5mm}
 
 \noindent\textbf{2. Improving:}
-The methods to improve energy efficiency in robotics software vary significantly across the primary studies. 
+The techniques to improve energy efficiency in robotics software vary significantly across the primary studies. 
 As stated in part 5 and 6 of subsection \ref{sec:results:insights}; a trend observed is that they mostly solve hardware (physical) 
 inefficiencies using software solutions, like an improved algorithm.
 
@@ -372,7 +372,7 @@ data over a bad wireless connection \cite{licea2013wireless_comms}.
 \noindent\fcolorbox{black}[HTML]{FFFFFF}{\parbox{0.47\textwidth}{%
 \noindent \textbf{Main Findings.}
 \begin{enumerate}[nolistsep]
-\item The state-of-the-art on analyzing the energy efficiency of robotics software consists of evaluation methods capable of
+\item The state-of-the-art on analyzing the energy efficiency of robotics software consists of evaluation techniques capable of
 estimating the energy efficiency of a piece of robotics software and identifying energy efficiency bottlenecks in existing robotics software.
 \item The most common way to analyze the energy efficiency of robotics software consists of performing experiments, evaluating the results.
 \item The state-of-the-art on improving the energy efficiency consists of:
