@@ -81,25 +81,32 @@ The three most common, descriptive and comparable metrics observed are:
 % Various trade-offs mentioned.
 % Used in RQ 3.
 From the 17 primary studies, 15 present a technique to significantly improve energy efficiency.
-In each of these studies, a trade-off between the improved energy efficiency and some other attribute of the system can be observed. 
+In each of these studies, a trade-off between the improved energy efficiency and some other attribute(s) of the system can be observed. 
 The remaining two studies present techniques to analyze the energy efficiency of a system, and do not present any trade-off with any other
 attribute of a system.
 
 \vspace{2mm}
 
-When possible, each trade-off has been formally mapped to the \textit{Software Quality Attributes\cite{iso2011quality_attributes}}.
+\noindent Each trade-off has been formally mapped to the \textit{Software Quality Attributes\cite{iso2011quality_attributes}}.
 However, considering robotics, there are attributes that do not exist in software.
-One such attribute has been found to trade-off with Energy Efficiency. 
+One such attribute has been found to trade-off with Energy Efficiency; Mobility.
+Mobility is an attribute paramount to robotics, a system's mobility is
+characterized by its ability to respond to its environment 
+and the intelligence, speed and the degree to which the response is calculated and executed.
+
+\vspace{2mm}
+
 From the primary studies it can be observed that Energy Efficiency trades-off with the following attributes:
 
 \begin{itemize}
     \item Performance Efficiency
     \item Maintainability
     \item Reliability
-    \item Mobility\footnote{Not an official software QA, however a trade-off nonetheless.}
 \end{itemize}
 
 These trade-offs are further detailed; answering the third research question, in subsection \ref{sec:results:rq3_trade_off}.
+Considering Mobility, as it is not an official quality attribute 
+as described in the referenced literature, it will be discussed informally.
 
 \vspace{5mm}
 
@@ -112,7 +119,7 @@ These trade-offs are further detailed; answering the third research question, in
 \end{figure}
 In figure \ref{fig:app_domains} it can be observed that the application domain of \textbf{Robot Exploration} is the most frequent
 domain considered in the primary studies. 
-The domain of \textbf{Industrial Robot} is at the second place with less than half the frequency.
+The domain of \textbf{Industrial Robot} is in second place with less than half the frequency.
 
 This is interesting, considering that in terms of emmissions and energy saving potential, there is far more to achieve in the industrial domain
 as specified in the introduction; section \ref{sec:intro}.
@@ -159,7 +166,7 @@ Each improvement solves a hardware inefficiency using software; however, each im
 These aspects are processed in the contributions of each primary study, 
 as stated in the next part (7) of this subsection.
 
-\newpage
+\vspace{5mm}
 
 \noindent\textbf{7. Major Contribution:}
 % For example the entire system, integrating the software aspects to improve inefficiency.
@@ -192,10 +199,10 @@ For understanding the experiments, especially the simulations, the energy model 
 \noindent\textbf{9. Comparison Against State-Of-The-Art:}
 % Mostly yes, important for validity!
 To verify the validity of the claims presented in the primary studies, the comparison against the state-of-the-art is important.
-In 14 of the 17 primary studies ($\pm 80\%$) a comparison was made.
+In 14 of the 17 primary studies a comparison was made.
 From the three studies that had no comparison, one was a paper presenting a novel cloud evaluation method \cite{hou2017novel_cloud_evaluation_model}
-which has no state-of-the-art to compare to as it presents something completely new. 
-It is therefore safe to say that 15 of the 17 primary studies ($\pm 90\%$) uphold the comparison.
+which has no state-of-the-art to compare to as it presents something novel. 
+It can thus be safely concluded that 15 of the 17 primary studies uphold the comparison.
 
 \vspace{2mm}
 
@@ -203,7 +210,61 @@ It is therefore safe to say that 15 of the 17 primary studies ($\pm 90\%$) uphol
 The threats to the validity of this literature study, and what has been done to mitigate these threats,
 is further detailed in section \ref{sec:threats}.
 
-\vspace{5mm}
+\vspace{2mm}
+
+\noindent 
+The most notable comparisons against the state-of-the-art, as observed in the literature, consist of the following.
+The specific results compared to the state-of-the-art for each paper are 
+purposefully omitted to prevent any erroneous comparisons between the papers and their results.
+Each of the results should be considerd on their own, 
+compared to the relative state-of-the-art, and for such nuance, 
+one should read the referenced literature.
+
+\vspace{2mm} \noindent \textbf{9.1 Exploration algorithm.}
+The state-of-the-art with respect to exploration algorithms for mobile robots
+consisted of selecting the next target for exploration based on the utility - amount of area to be explored - 
+and the cost - the distance of the target to the current position - of the frontier cell 
+\cite{burgard2005multi_robot_exploration, simmons2000multi_robot_exploration,zlot2002multi_robot_exploration}.
+In the studied literature it is however proven that if the next target is selected based on the orientation of the robot,
+explained further in section \ref{sec:results:rq2_state_of_the_art},
+overlap in the robot trajectory is guaranteed to be impossible \cite{mei2006mobile_exploration}.
+Reducing energy consumption, and reducing total travel distance; enabling the mobile robot 
+to finish exploring the area faster while consuming less energy. 
+
+\vspace{2mm} \noindent \textbf{9.2 Energy efficient macanum motion control.}
+Mecanum wheels are the state-of-the-art in industry when it comes to omnidirectional wheel designs with a high load capacity \cite{xie2018mecanum_wheel}.
+The Ilon Mecanum wheel is one of the practical omnidirectional wheel designs utilized in the industry, 
+and it has the advantage of high load capacity over other omnidirectional wheel designs \cite{adascalitei2011mecanum_wheels}.
+However, the Mecanum wheel trades off maneuverability against motion efficiency, and its inefficient energy usage for generating omnidirectional 
+motions increases the energy consumption of the robot \cite{diegel2002improved_mecanum_wheel}.
+The study extends the popular, well-known, robot operating system (ROS) dynamic window approach (DWA),
+a reactive collision avoidance navigation concept \cite{fox1997dwa_paper}.
+DWA has proven performance over a range of extended applications \cite{brock1999dwa_usage_1,ogren2005dwa_usage_2,kiss2012dwa_usage_3}.
+The addition of the energy-related criterion to the DWA local trajectory planner,
+minimized energy consumption per dynamic window and thus reduced the overall energy consumption.
+
+\vspace{2mm} \noindent \textbf{9.3 Energy efficient, multi-robot firefighting}
+To lessen the deaths \cite{fahy2015firefighter_deaths} and property damages \cite{karter2013fire_damages} 
+caused by fires in the United States, many researchers have studied various kinds of solutions. 
+One of the most effective solutions is using a firefighting robot that can 
+substitute for firefighters on the fire scene. This state-of-the-art solution
+is however often implemented as a single robot (e.g. FIRO-M), 
+carrying a heavy hose full of water into the fire scene.
+The robot often suffers from a loss of traction because the hose full of water
+is too heavy, or the hose gets stuck on a corner the robot has just driven around \cite{kim2016firefighting_robot}.
+To get unstuck, the robot will have to drive back and forth. 
+The loss of traction, and the hose getting stuck both consume significant amounts of
+energy that is not used for fighting the actual fire.
+To address this, the study presents MRESS - multi-robot energy saving system - to increase
+the operating time of a firefighting robot.
+The addition of sub-robots, aiding in carrying the hose, 
+allow for a better weight distribution, preventing a loss of traction, 
+and the advanced vision-based fire hose tracking method prevents 
+that the hose gets stuck on corners.
+Compared to the state-of-the-art, the single firefighting robot, 
+this saves significant amounts of energy and allows for a longer operating time.
+
+\newpage
 
 \noindent\textbf{10. Energy Model:}
 % Interesting for future research / comparison between the relative studies
@@ -311,7 +372,7 @@ The techniques extracted from the primary studies consist of:
 
 \vspace{2mm}
 
-\textbf{1.} The technique to off-load computations to other, nearby, robots that are more 'available' 
+\textbf{1 Off-loading computations.} The technique to off-load computations to other, nearby, robots that are more 'available' 
 (i.e. robots that have more resources available for such computations relative to the current one.), or to off-load it to the cloud.
 The concept here is that the cloud infrastructure (hardware itself, hardware utilization, etc) is more energy-optimized compared to the
 hardware used on the robots themselves, and will thus result in an improved energy efficiency.
@@ -319,54 +380,58 @@ Even though some energy is wasted in the transmission of data, the overall energ
     
 \vspace{2mm}
 
-\textbf{2.} The technique to improve the path finding for mobile robot exploration. 
-Many existing studies select the next target based on the utilities and costs of the frontier cells 
+\textbf{2 Advanced motion algorithm.} The technique to improve the motion algorithm, such as path finding algorithms for mobile robot exploration. 
+The improvement involves incorporating techniques to facilitate energy efficient movement.
+Techniques like \textbf{3, 4 and 5} can be implemented in an advanced motion algorithm.
+Like implementing a more advanced obstace-avoidance algorithm, enabling the robot to steer less by steering earlier to avoid the obstacle \cite{xie2018mecanum_wheel}.
+Also, many existing studies select the next target based on the utility and cost of the frontier cells 
 \cite{burgard2005multi_robot_exploration, simmons2000multi_robot_exploration,zlot2002multi_robot_exploration} 
 However, study \cite{mei2006mobile_exploration} proves that if the next target is selected based on the orientation of the robot, 
-that overlap in the robot trajectory is guaranteed to be impossible. This decreases inefficiency by nature, and thus improves energy 
+overlap in the robot trajectory is guaranteed to be impossible. This decreases inefficiency by nature, and thus improves energy 
 efficiency.
     
 \vspace{2mm}
 
-\textbf{3.} The technique to limit stops, directional changes (turns) and the degree to which the direction is changed as much as possible 
+\textbf{3 Limiting motion changes.} The technique to limit stops, directional changes (turns) and the degree to which the direction is changed as much as possible 
 significantly improves energy efficiency. By the very nature of this technique, an improved obstacle detection and avoidance algorithm
-is needed for mobile robotic systems. This technique is widespread over the primary studies, and presented and evaluated in 
+is needed for mobile robotic systems
 \cite{xie2018mecanum_wheel, kim2016firefighting_robot, benkrid2016multi_robot_exploration, barili1995efficient_motion, 
 jia2004grid_strategy_exploration, mei2005energy_consumers_identified, patel2012exploration_strategy}.
     
 \vspace{2mm}
 
-\textbf{4.} The technique to limit motion at high speeds, with numerous moments of acceleration and decelleration
+\textbf{4 Limiting motion speed.} The technique to limit motion at high speeds, with numerous moments of acceleration and decelleration
 \cite{wingstrom2013robot_cell_scheduling}.
     
 \vspace{2mm}
 
-\textbf{5.} The technique to prevent idle time as much as possible \cite{gurel2019industrial_robot_scheduling, 
+\textbf{5 Limiting idle time.} The technique to prevent idle time as much as possible \cite{gurel2019industrial_robot_scheduling, 
 kaitwanidvilai2020industrial_robot_cycle_time, wingstrom2013robot_cell_scheduling}.
     
 \vspace{2mm}
 
-\textbf{6.} The technique to limit data transmission by preventing the transmission of duplicate data in distributed robotic systems \cite{huh2013distributed_swarm}.
+\textbf{6 Limiting unnecessary communication.} The technique to limit data transmission by preventing the transmission of duplicate 
+or otherwise unnecessary data in distributed robotic systems \cite{huh2013distributed_swarm}.
 
 \vspace{2mm}
 
-\textbf{7.} The technique to limit physical inefficiencies (e.g. loss of traction because of payload weight), if possible, by adding more robots to the system which would cause the overall
-energy consumption to go down as the physical inefficiency (now improved) was consuming more energy than the addition of the subrobots \cite{kim2016firefighting_robot}.
+\textbf{7 Limiting physical inefficiencies.} The technique to limit physical inefficiencies (e.g. loss of traction because of payload weight), if possible, by adding more robots to the system which would cause the overall
+energy consumption to go down as the loss of traction was consuming more energy than the addition of the subrobots \cite{kim2016firefighting_robot}.
     
 \vspace{2mm}
 
-\textbf{8.} The technique to use more advanced hardware (i.e. more energy-optimized, desktop grade, hardware instead of custom robotic hardware) 
-on robots in combination with energy-optimized software to improve energy efficiency significantly \cite{cheng2018FPGA_image_recognition}.
+\textbf{8 Using optimized hardware.} The technique to use more advanced hardware (i.e. more energy-optimized, desktop grade, hardware instead of custom robotic hardware) 
+on robots in combination with energy-optimized software \cite{cheng2018FPGA_image_recognition}.
     
 \vspace{2mm}
 
-\textbf{9.} The technique that sacrificing some energy on finding a better position for the transmission of data over a wireless connection
+\textbf{9 Limiting transmission loss.} The technique that sacrificing some energy on finding a better position for the transmission of data over a wireless connection
 (a higher channel gain) will ultimately improve energy efficiency as less time is spend and wasted on (re)transmitting 
 data over a bad wireless connection \cite{licea2013wireless_comms}.
 
 \vspace{2mm}
 
-\textbf{10.} The technique to be able to predict the energy cost of any stimuli and reject said stimuli if it is predicted to exceed some energy threshold 
+\textbf{10 Predicting task's energy cost.} The technique to be able to predict the energy cost of any stimuli and reject said stimuli if it is predicted to exceed some energy threshold 
 \cite{kirtay2013humanoid_emotion}.
 
 \noindent\fcolorbox{black}[HTML]{FFFFFF}{\parbox{0.47\textwidth}{%
@@ -429,13 +494,6 @@ This is the case for each of the observed techniques, to varying degree, as pres
 stop operating for some criteria, like using techniques similar to \textbf{10}, or where the chance of operational failure is increased, 
 like increasing the possible points of failure during operation using techniques similar to \textbf{1, 7 and 9}. 
 
-\vspace{2mm}
-
-- \textbf{Mobility} trades-off with Energy Efficiency in any case where improving Energy Efficiency requires the system to reduce its responsiveness to 
-the environment it exists in. This is the case for techniques where the robot has to limit its movement, like using techniques similar to \textbf{3 and 4}.
-
-\vspace{2mm}
-
 Besides the fact that certain QAs need to be traded-off in order to improve energy efficiency, the extent to which this is required 
 matters just as much, if not more.
 For each system, the hit to the traded-off QA and the improvement of Energy Efficiency will be significantly different.
@@ -453,6 +511,17 @@ a decrease of 12.3\%. On the other hand, the total moving time is increased by 7
 
 In case the system in question can suffer a 71.8\% reduction in Performance Efficiency for a 12.3\% increase in Energy Efficiency, it might be worthwile.
 However, it can be considered a good example of a trade-off which might not be worthwile for most systems, let alone time-critical systems.
+
+\noindent \textbf{Informal attribute discussion}
+\newline
+\textbf{Mobility} is a quality attribute paramount to robotic systems, 
+as robotic systems result from a need to manipulate some environment using hardware, controlled by software.
+A system's Mobility is characterized as its ability to respond to its environment and 
+the intelligence, speed and the degree to which the response is calculated and executed.
+However, Mobility is not referenced as a quality attribute in the official literature and is thus discussed informally.
+
+Mobility trades-off with Energy Efficiency in any case where improving Energy Efficiency requires the system to reduce its responsiveness to 
+the environment it exists in. This is the case for techniques where the robot has to limit its movement, techniques similar to \textbf{3 and 4}.
 
 \vspace{5mm}
 

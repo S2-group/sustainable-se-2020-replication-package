@@ -148,6 +148,39 @@ L.~Xie, C.~Henkel, K.~Stol, and W.~Xu, ``Power-minimization and
   via the dynamic window approach local trajectory planning,''
   \emph{International Journal of Advanced Robotic Systems}, 2018.
 
+\bibitem{adascalitei2011mecanum_wheels}
+F.~Adăscăliţei and I.~Doroftei, ``Practical applications for mobile robots
+  based on mecanum wheels-a systematic survey,'' \emph{Romanian Review
+  Precision Mechanics, Optics and Mechatronics}, vol.~40, pp. 21--29, 2011.
+
+\bibitem{diegel2002improved_mecanum_wheel}
+O.~Diegel, A.~Badve, G.~Bright, J.~Potgieter, and S.~Tlale, ``Improved mecanum
+  wheel design for omnidirectional robots,'' 2002.
+
+\bibitem{fox1997dwa_paper}
+D.~Fox, W.~Burgard, and S.~Thrun, ``The dynamic window apporach to collision
+  avoidance,'' \emph{IEEE Robot Automat Mag}, vol.~4, pp. 23--33, 1997.
+
+\bibitem{brock1999dwa_usage_1}
+O.~Brock and O.~Khatib, ``High-speed navigation using the global dynamic window
+  approach,'' \emph{IEEE International conference on robotics and automation},
+  vol.~1, pp. 341--346, 1999.
+
+\bibitem{ogren2005dwa_usage_2}
+P.~Ogren and N.~Leonard, ``A convergent dynamic window approach to obstacle
+  avoidance,'' \emph{IEEE Trans Robot Autom}, pp. 188--195, 2005.
+
+\bibitem{kiss2012dwa_usage_3}
+D.~Kiss and G.~Tevesz, ``Advanced dynamic window based navigation approach
+  using model predictive control,'' \emph{17th International conference methods
+  and models in automation and robotics}, pp. 148--153, 2012.
+
+\bibitem{fahy2015firefighter_deaths}
+R.~Fahy, ``Firefighter fatalities in the united states,'' \emph{NFPA}, 2015.
+
+\bibitem{karter2013fire_damages}
+M.~Karter, ``Fire loss in the united states during 2012,'' \emph{NFPA}, 2013.
+
 \bibitem{benkrid2016multi_robot_exploration}
 A.~Benkrid, A.~Benallegue, and N.~Achour, ``Multi-robot coordination for
   energy-efficient exploration,'' \emph{Journal of Control, Automation and
