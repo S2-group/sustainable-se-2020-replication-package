@@ -3,7 +3,6 @@
 This literature study has been designed and carried out by following 
 well-accepted methodological guidelines on secondary studies
 \cite{petersen2015guidelines_systematic, kitchenham2013systematic_review_guidelines, wohlin2012experimentation}.
-
 This literature study targets multiple research questions. 
 These questions will be given and motivated in subsection \ref{sec:study_design:research_questions}.
 Then the search and selection of papers satisfying all of the inclusion and none of the exclusion criteria began.
@@ -19,30 +18,30 @@ This process is further explained in subsection \ref{sec:study_design:data_synth
 \label{sec:study_design:research_questions}
 This study considers three research questions. These questions and their motivations are given in this subsection.
 
-\vspace{5mm}
+\vspace{2mm}
 
 \textbf{[RQ1]} \textit{What are the publication trends of papers on energy efficiency in robotics software?}
 
-\vspace{5mm}
+\vspace{2mm}
 
 To be able to judge any characteristics of the state-of-the-art of energy efficiency in robotics software, one needs to know the maturity of the field.
 What publication trends are observed?
 
-\vspace{5mm}
+\vspace{2mm}
 
 \textbf{[RQ2]} \textit{What is the state-of-the-art on analyzing and improving the energy efficiency in robotics software?}
 
-\vspace{5mm}
+\vspace{2mm}
 
 This research question aims to answer what the state-of-the-art is for achieving and analyzing an increase of energy efficiency in robotics software.
 
-\vspace{5mm}
+\vspace{2mm}
 
 \textbf{[RQ3]} \textit{What are the trade-offs when dealing with energy efficiency in robotics software?}
 
-\vspace{5mm}
+\vspace{2mm}
 
-This research question aims to give insights into what Quality Attributes have been identified to trade-off with energy efficiency. 
+This research question aims to give insights into what \textit{Software Quality Attributes\cite{iso2011quality_attributes}} have been identified to trade-off with energy efficiency. 
 It is valuable for researchers and practitioners to know that if one wants to improve energy efficiency, 
 one can expect a decrease of some other attribute.
 
@@ -61,7 +60,7 @@ This, and more threats to the validity of this report are detailed in section \r
 An overview of the search and selection process is given in figure \ref{fig:search_selec_process}.
 The process, as displayed in the figure, is further elaborated on in this subsection.
 
-\vspace{5mm}
+\vspace{2mm}
 
 \noindent\textbf{1. Initial Search:}
 For the initial search, \textbf{Google Scholar}\footnote{\url{https://scholar.google.com/}} was used. 
@@ -105,7 +104,7 @@ The search string consists of three main components, each is given and motivated
 \end{enumerate}
 The number of results at the time of performing the initial search were \textbf{683} potentially relevant studies.
 
-\vspace{5mm}
+\vspace{2mm}
 
 \noindent\textbf{2. Filter Types and Duplicates}
 During this step, all publication types that are not peer-reviewed by nature are filtered out. 
@@ -133,7 +132,7 @@ The approach for duplicates, as followed by this literature study, is given belo
 \end{enumerate}
 After the duplicates were removed the total number of potentially relevant studies decreased to \textbf{610}.
 
-\vspace{5mm}
+\vspace{2mm}
 
 \noindent\textbf{3. Application of Selection Criteria:}
 During this step the \textbf{610} potentially relevant studies are filtered by applying the selection criteria. 
@@ -171,7 +170,7 @@ Once the application of the selection criteria was completed for the entire set 
 a total of \textbf{15} papers were identified to satisfy \textbf{all} of the \textit{inclusion criteria} and
 \textbf{none} of the \textit{exclusion criteria}. These formed the set of \textbf{considered studies}.
 
-\vspace{5mm}
+\vspace{2mm}
 
 \noindent\textbf{4. Snowballing:}
 % This table is not for snowballing, but does not want to move a page up if not put here.
@@ -210,28 +209,35 @@ a total of \textbf{15} papers were identified to satisfy \textbf{all} of the \te
                 Identified Major Consumers & 
                 \textit{Too many stops and turns in path} & 
                 RQ2 \\
+            6 &
+                Major Consumer Group &
+                \textit{Movement Related / Inefficient HW / Inefficient Procedure} &
+                RQ2 \\
 
-            6 & 
+            7 & 
                 Identified Improving Software Aspect & 
                 \textit{Improved path finder} & 
                 RQ2 \\
-            
-            7 &
+            8 &
+                Improving Aspect Group &
+                \textit{Improved HW / Improved Procedure} &
+                RQ2 \\
+            9 &
                 Major Contribution & 
                 \textit{The actual improved, evaluated, path finder algorithm} & 
                 RQ2 \\
             
-            8 &
+            10 &
                 Experiment & 
                 \textit{None / Simulation / Real-World / Combination} & 
                 RQ2 \\
             
-            9 &
+            11 &
                 Energy Model &
                 \textit{1 Unit of Distance = 1 Unit of Energy} & 
                 RQ2 \\
             
-            10 &
+            12 &
                 QA Trade-off & 
                 \textit{Performance Efficiency vs Energy Efficiency} & 
                 RQ3 \\
@@ -241,26 +247,22 @@ a total of \textbf{15} papers were identified to satisfy \textbf{all} of the \te
 \end{table*}
 In this phase the automatic search was complemented with recursive \textit{backward} and \textit{forward} snowballing \cite{wohlin2014snowballing}.
 During the \textit{backward} snowballing, all references of each \textit{considered study} were added to the potentially relevant studies. 
-After all references from each considered study were added the steps for applying the selection criteria, as given above, were once more followed. 
+After all references from each considered study were added the steps for applying the selection criteria, as given earlier, were once more followed. 
 After completing this iteration, each newly considered study was also used in the recursive backward snowballing process.
 
 Following the backward snowballing, \textit{forward} snowballing was used. 
 In this process each study that cites each considered study is added to the potentially relevant studies, 
 hereafter each step for applying the selection criteria was once more followed, 
 and the newly considered studies were recursively used in the forward snowballing process.
-
-\vspace{5mm}
-
 On completion of the snowballing process, the set of considered studies grew to \textbf{21} studies.
 These studies now form the set of \textit{primary studies}.
 
-\vspace{5mm}
+\vspace{2mm}
 
 \noindent\textbf{5. Exclusion during Data Extraction:}
 Papers that made it to the collection of primary studies can still be removed from the set during the data extraction phase if they 
 are found to satisfy one of the \textit{exclusion criteria} while reading the study full-text. 
 What the data extraction phase consists of, is explained in the next subsection \ref{sec:study_design:data_extract}.
-
 For this literature study, a total of \textbf{4} papers have been excluded during data extraction. 
 
 \subsection{Data Extraction}
@@ -274,6 +276,7 @@ The data sheet constructed during this phase; its columns, example values and th
 \subsection{Data Synthesis}
 \label{sec:study_design:data_synth}
 Arriving at this step, the set of \textit{primary studies} is finalized, now consisting of \textbf{17} papers.
-During the data synthesis phase, the filled out datasheet, as given in appendix \ref{appendix:data_sheet_1} and \ref{appendix:data_sheet_2}, 
+During the data synthesis phase, the filled out datasheet, 
+as given in appendix \ref{appendix:data_sheet_1}, \ref{appendix:data_sheet_2} and \ref{appendix:data_sheet_3}, 
 was used to plot the results and gain insights.
 These are given in section \ref{sec:results}.

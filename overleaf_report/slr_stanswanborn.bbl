@@ -81,6 +81,14 @@ B.~Kitchenham and P.~Brereton, ``A systematic review of systematic review
 C.~Wohlin, P.~Runeson, M.~Höst, M.~Ohlsson, B.~Regnell, and A.~Wesslén,
   ``Experimentation in software engineering,'' 2012.
 
+\bibitem{iso2011quality_attributes}
+\BIBentryALTinterwordspacing
+{ISO/IEC}, ``Iso/iec 25010: 2011 systems and software engineering--systems and
+  software quality requirements and evaluation (square)--system and software
+  quality models.'' [Online]. Available:
+  \url{https://www.iso.org/standard/35733.html}
+\BIBentrySTDinterwordspacing
+
 \bibitem{wohlin2014snowballing}
 C.~Wohlin, ``Guidelines for snowballing in systematic literature studies and a
   replication in software engineering,'' \emph{Proceedings of the 18th
@@ -95,6 +103,10 @@ A.~Rahman, J.~Jin, A.~Rahman, A.~Cricenti, M.~Afrin, and Y.-n. Dong,
 \bibitem{hou2017novel_cloud_evaluation_model}
 G.~Hou, K.~Zhou, T.~Qiu, X.~Cao, M.~Li, and J.~Wang, ``A novel green software
   evaluation model for cloud robotics,'' p. 139–156, 2017.
+
+\bibitem{barili1995efficient_motion}
+A.~Barili, M.~Ceresa, and C.~Parisi, ``Energy-saving motion control for an
+  autonomous mobile robot,'' p. 674–676, 1995.
 
 \bibitem{mei2006mobile_exploration}
 Y.~Mei, Y.-H. Lu, C.~G. Lee, and Y.~C. Hu, ``Energy-efficient mobile robot
@@ -118,17 +130,38 @@ J.~Kim, J.~E. Dietz, and E.~T. Matson, ``Modeling of a multi-robot energy
   saving system to increase operating time of a firefighting robot,'' p. 1–6,
   2016.
 
-\bibitem{barili1995efficient_motion}
-A.~Barili, M.~Ceresa, and C.~Parisi, ``Energy-saving motion control for an
-  autonomous mobile robot,'' p. 674–676, 1995.
+\bibitem{xie2018mecanum_wheel}
+L.~Xie, C.~Henkel, K.~Stol, and W.~Xu, ``Power-minimization and
+  energy-reduction autonomous navigation of an omnidirectional mecanum robot
+  via the dynamic window approach local trajectory planning,''
+  \emph{International Journal of Advanced Robotic Systems}, 2018.
 
-\bibitem{iso2011quality_attributes}
-\BIBentryALTinterwordspacing
-{ISO/IEC}, ``Iso/iec 25010: 2011 systems and software engineering--systems and
-  software quality requirements and evaluation (square)--system and software
-  quality models.'' [Online]. Available:
-  \url{https://www.iso.org/standard/35733.html}
-\BIBentrySTDinterwordspacing
+\bibitem{kaitwanidvilai2020industrial_robot_cycle_time}
+S.~Kaitwanidvilai, V.~Chanarungruengkij, and P.~Konghuayrob, ``Remote sensing
+  to minimize energy consumption of six-axis robot arm using particle swarm
+  optimization and artificial neural network to control changes in real time,''
+  p. 499–510, 2020.
+
+\bibitem{adascalitei2011mecanum_wheels}
+F.~Adăscăliţei and I.~Doroftei, ``Practical applications for mobile robots
+  based on mecanum wheels-a systematic survey,'' \emph{Romanian Review
+  Precision Mechanics, Optics and Mechatronics}, vol.~40, pp. 21--29, 2011.
+
+\bibitem{wingstrom2013robot_cell_scheduling}
+O.~Wigström and B.~Lennartson, ``Sustainable production automation-energy
+  optimization of robot cells,'' p. 252–257, 2013.
+
+\bibitem{jia2004grid_strategy_exploration}
+M.~Jia, G.~Zhou, and Z.~Chen, ``An efficient strategy integrating grid and
+  topological information for robot exploration,'' p. 667–672, 2004.
+
+\bibitem{gurel2019industrial_robot_scheduling}
+S.~Gürel, H.~Gultekin, and V.~E. Akhlaghi, ``Energy conscious scheduling of a
+  material handling robot in a manufacturing cell,'' p. 97–108, 2019.
+
+\bibitem{kirtay2013humanoid_emotion}
+M.~Kırtay and E.~Oztop, ``Emergent emotion via neural computational energy
+  conservation on a humanoid robot,'' p. 450–455, 2013.
 
 \bibitem{burgard2005multi_robot_exploration}
 W.~Burgard, M.~Moors, C.~Stachniss, and F.~Schneider, ``Coordinated multi-robot
@@ -141,17 +174,6 @@ R.~Simmons, D.~Apfelbaum, W.~Burgard, D.~Fox, M.~Moors, S.~Thrun, and
 \bibitem{zlot2002multi_robot_exploration}
 R.~Zlot, A.~Stentz, M.~Dias, and S.~Thayer, ``Multi-robot exploration
   controlled by a market economy,'' \emph{ICRA}, pp. 3016--3023, 2002.
-
-\bibitem{xie2018mecanum_wheel}
-L.~Xie, C.~Henkel, K.~Stol, and W.~Xu, ``Power-minimization and
-  energy-reduction autonomous navigation of an omnidirectional mecanum robot
-  via the dynamic window approach local trajectory planning,''
-  \emph{International Journal of Advanced Robotic Systems}, 2018.
-
-\bibitem{adascalitei2011mecanum_wheels}
-F.~Adăscăliţei and I.~Doroftei, ``Practical applications for mobile robots
-  based on mecanum wheels-a systematic survey,'' \emph{Romanian Review
-  Precision Mechanics, Optics and Mechatronics}, vol.~40, pp. 21--29, 2011.
 
 \bibitem{diegel2002improved_mecanum_wheel}
 O.~Diegel, A.~Badve, G.~Bright, J.~Potgieter, and S.~Tlale, ``Improved mecanum
@@ -186,30 +208,8 @@ A.~Benkrid, A.~Benallegue, and N.~Achour, ``Multi-robot coordination for
   energy-efficient exploration,'' \emph{Journal of Control, Automation and
   Electrical Systems}, p. 911–920, 2019.
 
-\bibitem{jia2004grid_strategy_exploration}
-M.~Jia, G.~Zhou, and Z.~Chen, ``An efficient strategy integrating grid and
-  topological information for robot exploration,'' p. 667–672, 2004.
-
-\bibitem{wingstrom2013robot_cell_scheduling}
-O.~Wigström and B.~Lennartson, ``Sustainable production automation-energy
-  optimization of robot cells,'' p. 252–257, 2013.
-
-\bibitem{gurel2019industrial_robot_scheduling}
-S.~Gürel, H.~Gultekin, and V.~E. Akhlaghi, ``Energy conscious scheduling of a
-  material handling robot in a manufacturing cell,'' p. 97–108, 2019.
-
-\bibitem{kaitwanidvilai2020industrial_robot_cycle_time}
-S.~Kaitwanidvilai, V.~Chanarungruengkij, and P.~Konghuayrob, ``Remote sensing
-  to minimize energy consumption of six-axis robot arm using particle swarm
-  optimization and artificial neural network to control changes in real time,''
-  p. 499–510, 2020.
-
 \bibitem{huh2013distributed_swarm}
 S.~Huh, S.~Hong, and J.~Lee, ``Energy-efficient distributed programming model
   for swarm robot,'' p. 300–305, 2013.
-
-\bibitem{kirtay2013humanoid_emotion}
-M.~Kırtay and E.~Oztop, ``Emergent emotion via neural computational energy
-  conservation on a humanoid robot,'' p. 450–455, 2013.
 
 \end{thebibliography}
