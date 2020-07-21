@@ -84,12 +84,13 @@ attribute of a system.
 \vspace{2mm}
 
 \noindent Each trade-off has been formally mapped to the \textit{Software Quality Attributes\cite{iso2011quality_attributes}}.
-However, considering robotics, there are attributes that do not exist in software.
-One such attribute has been found to trade-off with Energy Efficiency; Mobility.
-Mobility is an attribute paramount to robotics, a system's mobility is
-characterized by its ability to respond to its environment 
-and the intelligence, speed and the degree to which the response is calculated and executed.
-From the primary studies it can be observed that Energy Efficiency trades-off with the following attributes:
+However, considering robotics, there are attributes of a robotic system that do not exist in software.
+One such attribute has been found to trade-off with Energy Efficiency; Response.
+
+Response is an activity undertaken by the robotic system at the arrival of stimulus \cite{shakhimardanov2007robotic_response}.
+Response is an attribute paramount to robotics; an intelligent, fast and adequate response to stimulus is to be desired.
+
+From the primary studies it can be observed that Energy Efficiency trades-off with the following - official - attributes:
 
 \begin{itemize}
     \item Performance Efficiency
@@ -98,8 +99,7 @@ From the primary studies it can be observed that Energy Efficiency trades-off wi
 \end{itemize}
 
 These trade-offs are further detailed; answering the third research question, in subsection \ref{sec:results:rq3_trade_off}.
-Considering Mobility, as it is not an official quality attribute 
-as described in the referenced literature, it will be discussed informally.
+Considering Response, as it is not an official quality attribute as described in the referenced literature, it will be discussed informally.
 
 \vspace{2mm}
 
@@ -150,7 +150,7 @@ to contribute significantly to the total energy consumption
 \cite{mei2005energy_consumers_identified, mei2006mobile_exploration, xie2018mecanum_wheel,kaitwanidvilai2020industrial_robot_cycle_time}.
 
 \vspace{2mm} \noindent \textbf{5.2. Inefficient Hardware:}
-Inefficient Hardware is commonly identified to be a major consumer. 
+Inefficient hardware is commonly identified to be a major consumer. 
 This category encapsulates those circumstances where the hardware used is inefficient compared to other solutions 
 (e.g. an accelerator for vision-based tracking instead of a more efficient FPGA\footnote{Field Programmable Gate Array} \cite{cheng2018FPGA_image_recognition})
 or the hardware is used inefficiently (e.g. loss of traction due to a too heavy payload weight \cite{kim2016firefighting_robot}).
@@ -168,7 +168,7 @@ Some examples would consist of the following:
     \item Broadcasting data over a wireless connection from a bad position, resulting in a significantly low channel gain and a lossy connection \cite{licea2013wireless_comms}.
 \end{itemize}
 
-These examples could all be improved using an improved or, in some cases a completely different, procedure.
+These examples could all be improved using an improved, or in some cases a completely different, procedure.
 
 \vspace{2mm} \noindent \textbf{Software as consumer:}
 From all the primary studies, only one solely identifies software itself as the main consumer \cite{hou2017novel_cloud_evaluation_model}.
@@ -185,8 +185,6 @@ as this literature study explicitly targets such studies.
 As the presented improvements are implementation specific, they are hardly comparable.
 However, a common theme among the improvements can be identified:
 each improvement solves a hardware inefficiency using software; however, each improvement does so to a varying degree. 
-These aspects are processed in the contributions of each primary study, 
-as stated in the next part (7) of this subsection.
 
 Groups can be observed among the identified improving aspects.
 As the improving aspects are cohering with the observed major consumers, as they aim to improve them,
@@ -284,7 +282,7 @@ to finish exploring the area faster while consuming less energy.
 Mecanum wheels are the state-of-the-art in industry when it comes to omnidirectional wheel designs with a high load capacity \cite{xie2018mecanum_wheel}.
 The Ilon Mecanum wheel is one of the practical omnidirectional wheel designs utilized in the industry, 
 and it has the advantage of high load capacity over other omnidirectional wheel designs \cite{adascalitei2011mecanum_wheels}.
-However, the Mecanum wheel trades off maneuverability against motion efficiency, and its inefficient energy usage for generating omnidirectional 
+However, the mecanum wheel trades off maneuverability against motion efficiency, and its inefficient energy usage for generating omnidirectional 
 motions increases the energy consumption of the robot \cite{diegel2002improved_mecanum_wheel}.
 The study extends the popular, well-known, robot operating system (ROS) dynamic window approach (DWA),
 a reactive collision avoidance navigation concept \cite{fox1997dwa_paper}.
@@ -372,13 +370,8 @@ are extensively used in these models to get results as close to the real-world a
 In this section the results obtained when analyzing the publication trends on energy efficiency in robotics software are presented.
 Understanding the publication trends in the field of study is essential for interpreting the results of this literature study as it gives
 an idea of the maturity of the field. 
-
-\vspace{2mm}
-
 From these findings, as stated in part 1 of subsection \ref{sec:results:insights}, we can conclude that the maturity of the field is rather limited,
 considering the number of publications decrease significantly the further back we go in time.
-
-\vspace{2mm}
 
 It is important to take this into account for the findings of this literature study, presented in the following subsections 
 \ref{sec:results:rq2_state_of_the_art} and \ref{sec:results:rq3_trade_off}, and for the discussion as presented in section \ref{sec:discussion}.
@@ -435,7 +428,7 @@ The techniques extracted from the primary studies consist of:
 \vspace{1mm}
 
 \textbf{1 Off-loading computations.} The technique to off-load computations to other, nearby, robots that are more 'available' 
-(i.e. robots that have more resources available for such computations relative to the current one.), or to off-load it to the cloud.
+(i.e. robots that have more resources available for such computations relative to the current one), or to off-load it to the cloud.
 The concept here is that the cloud infrastructure (hardware itself, hardware utilization, etc) is more energy-optimized compared to the
 hardware used on the robots themselves, and will thus result in an improved energy efficiency.
 Even though some energy is wasted in the transmission of data, the overall energy consumption is decreased \cite{rahman2019cloud_robot_offloading}.
@@ -572,14 +565,15 @@ However, it can be considered a good example of a trade-off which might not be w
 
 \noindent \textbf{Informal attribute discussion}
 \newline
-\textbf{Mobility} is a quality attribute paramount to robotic systems, 
+\textbf{Response} is a quality attribute paramount to robotic systems, 
 as robotic systems result from a need to manipulate some environment using hardware, controlled by software.
-A system's Mobility is characterized as its ability to respond to its environment and 
-the intelligence, speed and the degree to which the response is calculated and executed.
-However, Mobility is not referenced as a quality attribute in the official literature and is thus discussed informally.
+Response is an activity undertaken by the robotic system at the arrival of stimulus \cite{shakhimardanov2007robotic_response}.
+A robotic system's Response to stimulus is desired to be intelligent, fast and adequate.
+However, Response is not referenced as a quality attribute in the official literature and is thus discussed informally.
 
-Mobility trades-off with Energy Efficiency in any case where improving Energy Efficiency requires the system to reduce its responsiveness to 
-the environment it exists in. This is the case for techniques where the robot has to limit its movement, techniques similar to \textbf{3 and 4}.
+Response trades-off with Energy Efficiency in any case where improving Energy Efficiency requires the system to reduce its responsiveness to 
+the environment it exists in and any stimulus resulting from it. 
+This trade-off can be observed when implementing techniques where the robot has to limit its movement; techniques similar to \textbf{3 and 4}.
 
 \vspace{2mm}
 
