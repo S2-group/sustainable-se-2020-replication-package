@@ -14,11 +14,18 @@ This study has been designed, performed, and reported by the following researche
 
 For any additional information or interest please contact us following the links provided above.
 
-## How to cite the dataset
-If the dataset or the results of our study are helping your research, consider to cite our study as follows.
+## How to cite this study
+If the results of our study are helping your research, consider to cite our study as follows.
 
-```
-@inproceedings{ ... blank space for Ivano ...}
+``` 
+@inproceedings{sustainable_se_2020,
+  title={{Energy Efficiency in Robotics Software: A Systematic Literature Review}},
+  author={Stan Swanborn and Ivano Malavolta},
+  booktitle={35th IEEE/ACM International Conference on Automated Software Engineering Workshops (ASEW '20)},
+  year={2020},
+  url= {https://github.com/S2-group/sustainable-se-2020-replication-package/sustainable_se_2020.pdf},
+  organization={ACM}
+}
 ```
 
 ### Overview of the replication package
